@@ -1,6 +1,6 @@
 # Icon List
 
-| Tag<br/>Tag<br/>Tag | Color<br/>Color<br/>Color | For<br/>For<br/>For | Tag<br/>Tag<br/>Tag | Color<br/>Color<br/>Color | For<br/>For<br/>For |
+| Tag<br/>Étiquette<br/>Тег | Color<br/>Couleur<br/>цвет | For<br/>Pour<br/>Для |
 | --- | --- | --- | --- | --- | --- |
 | feu | black<br/>noir<br/>черный | Heat<br/>Feu<br/>огонь | w_feu | white<br/>blanc<br/>белый | Heat<br/>Feu<br/>огонь |
 | gaz | black<br/>noir<br/>черный | Gas<br/>Gaz<br/>газ | w_gaz | white<br/>blanc<br/>белый | Gas<br/>Gaz<br/>газ |
