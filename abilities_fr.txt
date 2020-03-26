@@ -1,0 +1,184 @@
+1,ash|shuriken,Shuriken
+2,ash|smoke_screen,Écran de fumée
+3,ash|teleport,Téléportation
+4,ash|blade_storm,Tempête de Lames
+5,ember|fireball,Boule de Feu
+6,ember|immolation,Immolation
+7,ember|fire_blast,Souffle de feu
+8,ember|inferno,Inferno
+9,excalibur|slash_dash,Élan tranchant
+10,excalibur|radial_blind,Aveuglement Radial
+11,excalibur|radial_javelin,Radial Javelin
+12,excalibur|exalted_blade,Exalted Blade
+13,frost|freeze,Gel
+14,frost|ice_wave,Vague de glace
+15,frost|snow_globe,Boule de neige
+16,frost|avalanche,Avalanche
+17,loki|decoy,Leurre
+18,loki|invisibility,Invisibilité
+19,loki|switch_teleport,Transposition
+20,loki|radial_disarm,Désarmement radial
+21,mag|pull,Attirer
+22,mag|magnetize,Magnetize
+23,mag|polarize,Polarize
+24,mag|crush,Écrasement
+25,banshee|sonic_boom,Explosion sonique
+26,banshee|sonar,Sonar
+27,banshee|silence,Silence
+28,banshee|sound_quake,Secousse sonique
+29,nekros|soul_punch,Perforation d'âme
+30,nekros|terrify,Terrification
+31,nekros|desecrate,Profanation
+32,nekros|shadow_of_the_dead,Ombres des Morts
+33,nova|null_star,Étoile Zéro
+34,nova|antimatter_drop,Lâché d'antimatière
+35,nova|worm_hole,Trou de ver
+36,nova|molecular_prime,Amorce moléculaire
+37,nyx|mind_control,Contrôle mental
+38,nyx|psychic_bolts,Carreaux Psychiques
+39,nyx|chaos,Chaos
+40,nyx|absorb,Absorption
+41,oberon|smite,Châtiment
+42,oberon|hallowed_ground,Bénédiction Terrestre
+43,oberon|renewal,Renouvellement
+44,oberon|reckoning,Jugement
+45,rhino|rhino_charge,Charge Rhino
+46,rhino|iron_skin,Peau de Fer
+47,rhino|roar,Rugissement
+48,rhino|rhino_stomp,Piétinement Rhino
+49,saryn|spores,Spores
+50,saryn|molt,Mue
+51,saryn|toxic_lash,Toxic Lash
+52,saryn|miasma,Miasme
+53,trinity|well_of_life,Puits de vie
+54,trinity|energy_vampire,Vampire d'Énergie
+55,trinity|link,Lien
+56,trinity|blessing,Bénédiction
+57,valkyr|rip_line,Ligne d'Arrachage
+58,valkyr|warcry,Cri de Guerre
+59,valkyr|paralysis,Paralysie
+60,valkyr|hysteria,Hystérie
+61,vauban|tesla_nervos,Tesla Nervos
+62,vauban|minelayer,Minelayer
+63,vauban|photon_strike,Photon Strike
+64,vauban|bastille,Bastille
+65,volt|shock,Choc
+66,volt|speed,Vitesse
+67,volt|electric_shield,Bouclier électrique
+68,volt|discharge,Discharge
+69,zephyr|tail_wind,Vent Contraire
+70,zephyr|airburst,Airburst
+71,zephyr|turbulence,Turbulence
+72,zephyr|tornado,Tornade
+73,hydroid|tempest_barrage,Barrage Tempête
+74,hydroid|tidal_surge,Raz-de-marée
+75,hydroid|undertow,Contre-courant
+76,hydroid|tentacle_swarm,Essaim de Tentacules
+77,mirage|hall_of_mirrors,Galerie des Glaces
+78,mirage|sleight_of_hand,Tour de Passe
+79,mirage|eclipse,Éclipse
+80,mirage|prism,Prisme
+81,limbo|banish,Banish
+82,limbo|rift_walk,Stasis
+83,limbo|rift_surge,Rift Surge
+84,limbo|cataclysm,Cataclysm
+85,odonata|energy_shell,Energy Shell
+86,odonata|disarray,Disarray
+87,odonata|seeking_fire,Seeking Fire
+88,odonata|repel,Repel
+89,elytron|bloomer,Bloomer
+90,elytron|core_vent,Core Vent
+91,elytron|thumper,Thumper
+92,elytron|warhead,Warhead
+93,mesa|ballistic_battery,Ballistic Battery
+94,mesa|shooting_gallery,Shooting Gallery
+95,mesa|shatter_shield,Shatter Shield
+96,mesa|peacemaker,Peacemaker
+97,itzal|blink,Blink
+98,itzal|penumbra,Penumbra
+99,itzal|cosmic_crush,Cosmic Crush
+100,itzal|fighter_escort,Fighter Escort
+101,chroma|spectral_scream,Spectral Scream
+102,chroma|elemental_ward,Elemental Ward
+103,chroma|vex_armor,Vex Armor
+104,chroma|effigy,Effigy
+105,equinox|metamorphosis,Metamorphosis
+106,equinox|rest_&_rage,Rest & Rage
+107,equinox|pacify_&_provoke,Pacify & Provoke
+108,equinox|mend_&_maim,Mend & Maim
+109,atlas|landslide,Landslide
+110,atlas|tectonics,Tectonics
+111,atlas|petrify,Petrify
+112,atlas|rumblers,Rumblers
+113,wukong|celestial_twin,Celestial Twin
+114,wukong|cloud_walker,Cloud Walker
+115,wukong|defy,Defy
+116,wukong|primal_fury,Primal Fury
+117,ivara|quiver,Quiver
+118,ivara|navigator,Navigator
+119,ivara|prowl,Prowl
+120,ivara|artemis_bow,Artemis Bow
+121,nezha|fire_walker,Fire Walker
+122,nezha|blazing_chakram,Blazing Chakram
+123,nezha|warding_halo,Warding Halo
+124,nezha|divine_spears,Divine Spears
+125,inaros|dessication,Desiccation
+126,inaros|devour,Devour
+127,inaros|sandstorm,Sandstorm
+128,inaros|scarab_swarm,Scarab Swarm
+129,amesha|watchful_swarm,Watchful Swarm
+130,amesha|benevolent_decoy,Benevolent Decoy
+131,amesha|warding_grace,Warding Grace
+132,amesha|vengeful_rush,Vengeful Rush
+133,titania|spellbind,Spellbind
+134,titania|tribute,Tribute
+135,titania|lantern,Lantern
+136,titania|razorwing,Razorwing
+137,nidus|virulence,Virulence
+138,nidus|larva,Larva
+139,nidus|parasitic_link,Parasitic Link
+140,nidus|ravenous,Ravenous
+141,octavia|mallet,Mallet
+142,octavia|resonator,Résonator
+143,octavia|metronome,Metronome
+144,octavia|amp,Amp
+145,harrow|condemn,Condemn
+146,harrow|penance,Penance
+147,harrow|thurible,Thurible
+148,harrow|covenant,Covenant
+149,gara|shattered_lash,Shattered Lash
+150,gara|splinter_storm,Splinter Storm
+151,gara|spectrorage,Spectrorage
+152,gara|mass_vitrify,Mass Vitrify
+153,khora|whipclaw,Whipclaw
+154,khora|ensnare,Ensnare
+155,khora|venari,Venari
+156,khora|strangledome,Strangledome
+157,revenant|enthrall,Enthrall
+158,revenant|mesmer_skin,Mesmer Skin
+159,revenant|reave,Reave
+160,revenant|danse_macabre,Danse Macabre
+161,garuda|dread_mirror,Dread Mirror
+162,garuda|blood_altar,Blood Altar
+163,garuda|bloodletting,Bloodletting
+164,garuda|seeking_talons,Seeking Talons
+165,baruuk|elude,Elude
+166,baruuk|lull,Lull
+167,baruuk|desolate_hands,Desolate Hands
+168,baruuk|serene_storm,Serene Storm
+169,hildryn|balefire,Balefire
+170,hildryn|shield_pillage,Shield Pillage
+171,hildryn|haven,Haven
+172,hildryn|aegis_storm,Aegis Storm
+173,wisp|reservoirs,Reservoirs
+174,wisp|wil-o-wisp,Wil-O-Wisp
+175,wisp|breach_surge,Breach Surge
+176,wisp|sol_gate,Sol Gate
+177,gauss|mach_rush,Mach Rush
+178,gauss|kinetic_plating,Kinetic Plating
+179,gauss|thermal_sunder,Thermal Sunder
+180,gauss|redline,Redline
+181,grendel|feast,Feast
+182,grendel|nourish,Nourish
+183,grendel|regurgitate,Regurgitate
+184,grendel|pulverize,Pulverize
