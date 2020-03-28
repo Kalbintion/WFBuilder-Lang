@@ -12,7 +12,7 @@ This repo is about being able to translate/update incorrect, missing, outdated, 
   - If your PR is not accepted, a note on why will made, and fixes will need to happen before it can be accepted. Common issues for this would be the formatting of the changes not following guidelines.
 
 # How To Translate Abilities
-You will find a header line, such as `# Ash`, for abilities for that frame to help minimize confusion and to find an ability faster. Each line contains two parts for abilities, each part separated by commas. The first is the ID of the ability, this should **never** be changed. The second part is the name in the respective language of the ability. Please ensure the files save with Unix style endings (\n)
+You will find a header line, such as `# Ash`, for abilities for that frame to help minimize confusion and to find an ability faster. Each line contains two parts for abilities, each part separated by commas. The first is the ID of the ability, this should **never** be changed. The second part is the name in the respective language of the ability. Please ensure the files save with [Unix style endings (\n)](#unix-style-endings-n)
 
 #### Examples
 For [Ember](https://warframe.fandom.com/wiki/Ember) who had a rework that changed two of her ability names, Accelerant and World on Fire to Immolation and Inferno, respectively, would cause their respective lines in the EN/Abilities.txt file from:
@@ -36,7 +36,7 @@ Or for [Vauban](https://warframe.fandom.com/wiki/Vauban) who had received a rewo
 `64,Vortex` to `64,Bastille`
 
 # How To Translate Mods
-Each line contains three parts for mods, each part separated by commas. The first is the ID of the mod, this should **never** be changed. Second part is the displayed name of the mod in the respective language. The third part is the mod's description. Please note that there are specific custom tags in use for displaying information properly. Please refer to the table (Mod Tags) below. Please ensure the files save with Unix style endings (\n)
+Each line contains three parts for mods, each part separated by commas. The first is the ID of the mod, this should **never** be changed. Second part is the displayed name of the mod in the respective language. The third part is the mod's description. Please note that there are specific custom tags in use for displaying information properly. Please refer to the table (Mod Tags) below. Please ensure the files save with [Unix style endings (\n)](#unix-style-endings-n)
 
 #### Examples
 For the mod [Fulmination](https://warframe.fandom.com/wiki/Fulmination) that changed to being permitted on all secondaries and where its description changed, the line would go from it's previous description of:
@@ -63,7 +63,7 @@ to
 # How To Translate Details
 The Details file contains extra information typically used by warframes, mods and other key parts of the interface. This includes information like special ability descriptions and augment descriptions found in the Details tab of a warframe. The information is broken up into sections to find easier, including header comments for frames and their abilities.
 
-Each line found in there contains the key used by WFBuilder, surrounded by single quotes, following by an equal sign and greater than (`=>`) and finally the string that is shown. This is typically encapsulated by single or double quotes and the line ends with a comma. The only portion that should be modified with the displayed string mentioned, and the line must end with a comma. For those who are a bit more knowledgeable about programming, this is the contents of a PHP array used by the language file itself.
+Each line found in there contains the key used by WFBuilder, surrounded by single quotes, following by an equal sign and greater than (`=>`) and finally the string that is shown. This is typically encapsulated by single or double quotes and the line ends with a comma. The only portion that should be modified with the displayed string mentioned, and the line must end with a comma. For those who are a bit more knowledgeable about programming, this is the contents of a PHP array used by the language file itself. Please ensure the files save with [Unix style endings (\n)](#unix-style-endings-n)
 
 #### Examples
 If, as a hypothetical, the status Magnetic term was no longer used and DE changed it to be "shield shock" then the following line would need to be changed:
@@ -73,3 +73,12 @@ If, as a hypothetical, the status Magnetic term was no longer used and DE change
 Or if Ash's Shurikens were renamed as Throwing Stars, then the line for his ability, found under the header `// SHURIKEN` would be changed from:
 
 `'shuriken'=>'shuriken(s)',` to `'shuriken'=>'throwing star(s)',`
+
+# Unix-Style Endings (\n)
+The Unix line ending method is preferred for these files, as it will cause less disruption for parsing the edits back into the system as well as to keep everything tidy. If you are completely unable to save with unix-style endings, please make note of it in your PR.
+
+For quicker access for some popular software, here are links to ensure that your desired text editor is saving with unix-styled endings.
+* Notepad: No support unless you are on Windows 10
+* [Notepad++](https://notepad-plus-plus.org/downloads/): <https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings#how-to-convert>
+* [Atom](https://atom.io/): <https://stackoverflow.com/a/48686409>
+* [VSCode](https://code.visualstudio.com/): <https://marketplace.visualstudio.com/items?itemName=JakubBielawa.LineEndingsUnifier>
