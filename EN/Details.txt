@@ -1,0 +1,1354 @@
+/* Shared */
+'chance_statut' => 'status chance',
+'corrosif'=>'corrosive',
+'degats'=>'damage',
+'duree_status' => 'status duration',
+'electrique'=>'electric',
+'explosif'=>'blast',
+'feu'=>'heat',
+'falloff_range' => 'Falloff Range',
+'falloff_amount' => 'Falloff %',
+'gaz'=>'gas',
+'glace'=>'cold',
+'impact'=>'impact',
+'magnetique'=>'magnetic',
+'munitions'=>'ammo',
+'penetration'=>'puncture',
+'poison'=>'toxin',
+'probabilite_status'=>'status / shot',
+'radiation'=>'radiation',
+'range'=>'range',
+'rayon_explosion'=>'explosion radius',
+'status_effect' => 'status effect proc',
+'tranchant'=>'slash',
+'viral'=>'viral',
+
+/* Primary & Secondary */
+'arrow_expl' => 'arrow explosion',
+'auto' => 'auto mode',
+'balles'=>'bullets',
+'balles_consommees' => 'ammo used per shot',
+'barrage' => 'barrage mode', // Zarr
+'bow_burst' => 'bow burst',
+'burst' => 'burst mode',
+'cadence_de_tir'=>'fire rate',
+'cadence_de_tir_burst' => 'burst rate of fire',
+'chances_de_critique'=>'critical chances',
+'charged_throw' => 'charged throw',
+'chargeur'=>'magazine',
+'cluster_bombs' => 'clusters bombs', // Zarr
+'critique'=>'critical',
+'critique_par_balle'=>'critical / bullet',
+'critique_par_plomb'=>'critical / pellet',
+'cube_enemy' => 'cube (detonated by enemy)', // Quanta
+'cube_joueur' => 'cube (detonated by player)', // Quanta
+'diffusion'=>'spread',
+'feu_elec' => 'fire/electric quill',
+'fully_spooled' => 'fully spooled',
+'munitions_max'=>'ammo maximum',
+'niveau_zoom' => 'zoom level',
+'normal' => 'normal',
+'orb' => 'orb', // Simulor
+'orb_explosion' => 'orb explosion', // Simulor
+'orb_merge' => 'orb merge', // Simulor
+'orb_merge_explosion' => 'orb merge explosion', // Simulor
+'pellet'=>'pellets',
+'perforation'=>'punch through',
+'plasma_bomb' => 'plasma bomb', // Phantasma
+'poi_ice' => 'poison/ice quill', // Hystrix
+'precision'=>'accuracy',
+'primaire' => 'primary',
+'projectile' => 'projectile',
+'projectiles'=>'projectiles',
+'projectile_atmosphere' => 'projectile atmosphere',
+'projectile_charge' => 'charged projectile',
+'projectile_explosion' => 'projectile explosion',
+'projectile_impact' => 'projectile impact',
+'range_limit' => 'range limit',
+'recharger'=>'reload',
+'recharger_par_round' => 'reload per round',
+'recharger_total' => 'total reload time',
+'recul'=>'recoil',
+'reduction_bruit'=>'firing noise',
+'reload' => 'weapon reloaded',
+'rocket_explosion' => 'rocket explosion',
+'rocket_impact' => 'rocket impact',
+'secondaire' => 'secondary',
+'semi' => 'semi-auto mode',
+'semi_auto' => 'semi-auto mode',
+'single_pellet' => 'single pellet',
+'status'=>'status',
+'status_par_balle' => 'status / bullet',
+'status_par_plomb' => 'status / pellet',
+'status_radiation'=> 'radiation status chance', // TODO: May be unused
+'tir_multiple'=>'multishot',
+'toxin_cloud' => 'toxin cloud',
+'valeur_charge' => ' charged at ', // TODO: May be unused
+'valeur_de_critique'=>'critical multiplier',
+'visee' => 'aim',
+'vitesse_degainement'=>'holster rate',
+'vitesse_de_vol'=>'flight speed',
+'wild_frenzy' => 'wild frenzy', // Grakatas
+'zoom'=>'zoom',
+
+/* Archgun */
+'atmosphere' => 'atmosphere',
+'atmosphere_charge' => 'atmosphere charged',
+'atm_projectile_explosion' => 'atmosphere projectile explosion',
+'atm_projectile_impact' => 'atmosphere projectile impact',
+'explosion_atmosphere' => 'explosion atmosphere', // Grattler
+
+/* Melee */
+'atk_disc_deployed' => 'Attacks while disc deployed',
+'attaque_chargee'=>'charged attack',
+'attaque_de_saut'=>'slam impact',
+'attaque_murale'=>'wall attack',
+'attaque_tournoyante'=>'slide attack',
+'berserk' => 'berserker buffs',
+'block_angle' => 'block angle',
+'chances_de_critique_base[normal|slide]' => 'Crit chance on slide atk',
+'combo_counter' => 'combo counter',
+'combo_duration' => 'combo duration',
+'coup_de_grace'=>'finisher damage',
+'degats_melee'=>'melee damage',
+'disc_aura' => 'disc aura',
+'disc_explosion' => 'disc explosion',
+'disc_impact' => 'disc impact',
+'dual_swords' => 'dual swords',
+'duree_combo_melee' => 'combo counter duration',
+'finisher' => 'finisher damage',
+'finisher_damage' => 'finisher damage',
+'follow_through' => 'follow through',
+'heavy_blade' => 'heavy blade',
+'heavy_slam_attack' => 'heavy slam',
+'heavy_slam_radial_damage' => 'radial damage',
+'heavy_slam_radius' => 'slam radius',
+'initial_combo' => 'initial combo',
+'lancer_explosion' => 'throw explosion',
+'lifted' => 'enemy lifted',
+'normale' => 'normal attack',
+'portee_attaque' => 'attack range',
+'portee_m'=>'melee range',
+'rayon_attaque_de_saut' => 'slam attack radius',
+'rebond'=>'bounce',
+'recall_explosion' => 'recall explosion', // Wolf Sledge
+'shots' => 'shots', // Gunblades
+'slam_radial_damage' => 'radial damage',
+'slam_radius' => 'slam radius',
+'status_exalted_blade' => 'exalted blade\'s status chance',
+'throw' => 'throw',
+'vitesse_d_attaque'=>'attack speed',
+
+// Faction
+'degats_sentients' => 'damage to sentients',
+'degats_corrompus'=>'damage vs corrupted',
+'degats_infestes'=>'damage vs infested',
+'degats_grineers'=>'damage vs grineers',
+'degats_corpus'=>'damage vs corpus',
+
+// Mods
+'armor_link' => 'armor-link',
+'aura_effectiveness' => 'aura effectiveness',
+'bleedout_link' => 'bleedout-link',
+'boost_speed' => 'boost speed',
+'bouclier_froid'=>'shield resistant to ice',
+'condition_overload' => 'nb of status effects',
+'dead_aim' => 'dead aim damage',
+'degats_1ere_balle'=>'damage on 1st shot',
+'degats_air'=>'damage while airborne',
+'degats_a_la_mort'=>' upon enemy death',
+'degats_electriques_bullet_jump' => 'electric damage on bullet jump',
+'degats_feu_bullet_jump' => 'fire damage on bullet jump',
+'degats_froid_bullet_jump' => 'cold damage on bullet jump',
+'degats_impact_bullet_jump' => 'impact damage on bullet jump',
+'degats_penetration_bullet_jump' => 'puncture damage on bullet jump',
+'degats_pistolet' => 'pistol damage', // Pistol Amp
+'degats_poison_bullet_jump' => 'toxin damage on bullet jump',
+'degats_saignement'=>'damage during bleedout', // Provocation
+'degats_shotgun' => 'shotgun damage', // Shotgun Amp
+'degats_surchauffe' => 'max overheat damage', // Fired Up
+'degats_tranchant_bullet_jump' => 'slash damage on bullet jump',
+'double_jump_strength' => 'double jump strength', // Motus Signal
+'energy_after_shield_r' => 'energy upon completely replenishing shields', // Surplus Diverters
+'evasion' => 'evasion',
+'explosion'=>'chance to explode',
+'explosion_charge' => 'charged explosion', // Thundermiter
+'expose_enemies' => 'expose enemies who are at max energy',
+'final_shot' => 'final shot in magazine', // Synth Charge
+'force_bouclier' => 'shield strength',
+'frag' => 'enemy killed',
+'friction' => 'friction',
+'glissade'=>'slide',
+'headshot' => 'headshot on enemy',
+'headshot_kill' => 'headshot kill',
+'health_link' => 'health-link',
+'heavy_attack' => 'heavy impact',
+'heavy_attack_windup' => 'wind-up',
+'hit' => 'enemy hit', // Narrow Barrel, Guided Ordnance, Targeting Subsystem
+'knockdown_immune_after_knockdown' => 'knockdown immune after being knocked down',
+'land_jump' => 'land bullet/double jump', // Motus Step
+'lifesteal_link' => 'lifesteal-link',
+'mobility' => 'mobility',
+'munitions_fusil'=>'rifle ammo pickup',
+'munitions_fusil_p'=>'shotgun ammo pickup',
+'munitions_pistolet'=>'pistol ammo pickup',
+'munitions_sniper'=>'sniper ammo pickup',
+'napalm_grenades' => 'napalm grenades',
+'niveauModAugment' => 'Augment mod rank',
+'ouvrir_casiers'=>'chance to unlock locked lockers',
+'power_donation' => 'power donation mods on allies',
+'puissance_allies' => 'power strength for allies',
+'pull' => 'pulling enemy (alt fire)',
+'radar_ennemi'=>'enemy radar',
+'radar_objet'=>'loot radar',
+'reduced_gravity_aim_glide' => 'reduced gravity during aim glide', // Aero Vantage
+'regen_bouclier_porteur' => 'warframe shield regeneration',
+'regen_energie'=>'energy regeneration',
+'reload_empty' => 'reload from empty', // Deadly Efficiency
+'renvoi_parade'=>'damage back while blocking',
+'resist_a_terre'=>'damage resistance on knockdown',
+'resist_explosif' => 'blast resistance', // Anti-Flak Plating
+'respawn_energy_to_overshields' => 'Respawn energy converted to overshields', // Overcharged
+'r_bouclier'=>'shield recharge',
+'r_mise_a_terre'=>'chance to resist knockdown',
+'r_renservement'=>'knockback recovery',
+'r_saignement'=>'bleedout reduction',
+'sante_bouclier_resurrection' => 'health and shield restored', // Sacrifice
+'scan_lifeforms' => 'maximum active conservation encounters',
+'shield_link' => 'shield-link',
+'slide' => 'slide',
+'slide_boost_airborne' => 'slide boost airborne', // Air Thrusters
+'stagger_immune_after_stagger' => 'stagger immune after being stagerred', // Anticipation
+'stagger_recovery' => 'stagger recovery speed', // Pain Threshold
+'status_link' => 'status-link',
+'trouver_objet' => 'chance to drop an item upon death',
+'vitesse_de_charge_m' => 'melee charge attack speed', // Swift Momentum
+'wall_latch_2s' => '2s wall latch', // Proton Snap
+'while_aiming' => 'while aiming',
+
+// Mods - Riven
+'riven-chargeur' => 'Magazine capacity',
+'riven-glace' => 'Cold damage',
+'riven-munitions' => 'Ammo maximum',
+'riven-recharger' => 'Reload speed',
+'riven-status' => 'Status chance',
+'riven-status_duration' => 'Status duration',
+
+// UI - Generic
+'annuler' => 'Cancel',
+'burst_dps'=>'burst dps',
+'charge'=>'charged',
+'degats_aura'=>'aura mod damage',
+'degats_m' => 'max damage',
+'degats_min' => ' minimum',
+'delai_tirs' => 'delay between shots',
+'enlever_en_cours' => 'Removing in progress...',
+'envoyer' => 'Send',
+'message_dont_like' => 'Like?',
+'message_favorite' => 'Bookmarked',
+'message_like' => 'Liked',
+'message_no_favorite' => 'Bookmark?',
+'non'=>'No',
+'non_charge'=>'non charged',
+'oui'=>'Yes',
+'reset_en_cours' => 'Reset in progress...',
+'sustained_dps'=>'sustained dps',
+'total'=>'total',
+
+// UI - Measurements
+'degats_par_seconde'=>' per second',
+'degats_par_tick' => ' average per tick (3 to 5 ticks/s)',
+'degats_t'=>'total damage',
+'unite_distance' => 'm',
+'unite_duree' => ' sec',
+
+// UI - Hacking
+'temps_piratage'=>'to hacking',
+
+/* WARFRAME - GENERAL */
+// Listed declarations may be used across multiple frames
+'ability' => 'ability casted',
+'aim_glide_wall_latch' => 'aim glide & wall latch',
+'aim_gliding' => 'aim gliding',
+'angle' => 'angle',
+'armure'=>'armor',
+'armure_ennemie'=>'enemy armor',
+'attaque_radiale' => 'radial attack',
+'aura_strength' => 'aura strength',
+'beam_radius' => 'beam radius',
+'bonus_cout_1ere_relance' => 'energy cost if recasted within 1 second',
+'bonus_cout_autres_relances' => 'energy cost if recasted again within 1 second',
+'bonus_degats'=>'damage bonus',
+'bonus_degats_1ere_relance' => 'damage bonus if recasted within 1 second',
+'bonus_degats_autres_relances' => 'damage bonus if recasted again within 1 second',
+'boosted' => 'boosted attack',
+'bouclier'=>'shield capacity',
+'bouclier_ennemi' => 'enemy shield',
+'bullet_jump' => 'bullet jump',
+'bullet_jump_speed_after_wall_dash' => 'bullet jump speed after wall dash',
+'capacite_boucliers' => 'shield capacity',
+'casques_dispos' => 'No helmet equipped',
+'chances_renverser' => 'energy orb drop chance',
+'chance_statut_explosion' => 'explosion status chance',
+'chance_statut_explosion' => 'status chance of the explosion',
+'cibles'=>'target(s)',
+'cout'=>'energy cost',
+'cout_par_sec'=>'energy cost per second',
+'cout_par_tir' => 'energy cost per shot',
+'degats_contact' => ' on contact',
+'degats_explosion' => 'explosion damage',
+'degats_projectile' => 'projectile damage',
+'drain_vie'=>'of damage converted to health',
+'duree'=>'power duration',
+'duree_aveuglement' => 'blind duration',
+'duree_buff' => 'buff duration',
+'duree_debuff' => 'debuff duration',
+'duree_mez' => 'sleep duration',
+'duree_p'=>'power duration',
+'duree_reduction_armure_ennemie' => 'enemy armor reduction duration',
+'duree_stun' => 'stun duration',
+'duree_vague_nova' => 'wave expansion duration',
+'efficacite'=>'power efficiency',
+'energie'=>'energy',
+'hauteur'=>'height',
+'health_mult' => 'health multiplier',
+'heal_multiplier' => 'heal multiplier',
+'heal_radius' => 'heal radius',
+'invisibilite' => 'invisibility',
+'invulnerabilite'=>'invulnerabiliy',
+'largeur'=>'width',
+'mez_equinox' => 'percentage of health at which the enemy will wake up',
+'multiplicateur_armure' => 'armor multiplier',
+'multiplicateur_de_degats' => 'damage multiplier',
+'nb_ticks' => 'number of ticks',
+'nombre'=>'quantity',
+'parkour_velocity' => 'parkour velocity',
+'portee'=>'power range',
+'poStrExalted' => 'power str. from mods',
+'puissance'=>'power strength',
+'puissance_base' => 'base power strength',
+'rayon'=>'radius',
+'rayon_aveuglement' => 'blind range',
+'rayon_max' => 'max radius',
+'rayon_stun' => 'stun radius',
+'reduction_degats'=>'incoming damage reduction',
+'renvoi_degats'=>'incoming damage and status effects reflection', // Chroma Cold, Titania Tribute Thorns, Trinity
+'root' => 'immobilization',
+'sante'=>'health',
+'slowdown_globe' => 'attack/movement speed reduction', // Used for Frost, Nova & Rhino
+'sprint'=>'sprint speed',
+'stun'=>'stun',
+'vitesse'=>'speed',
+'vitesse_cast'=>'casting speed',
+'vitesse_de_charge'=>'charge speed',
+'vitesse_vague_nova' => 'wave expansion speed',
+'wall_latch' => 'wall latch',
+'width' => 'width',
+
+/* WARFRAME - ASH */
+// SHURIKEN
+'shuriken'=>'shuriken(s)',
+// SHURIKEN AUGMENT
+// SMOKE SCREEN
+// SMOKE SCREEN AUGMENT
+'duree_cache_allies' => 'conceals allies',
+'portee_aveuglement' => 'blind range', // PVP
+// TELEPORT
+// TELEPORT AUGMENT
+'degats_teleport' => 'damage from melee finisher upon teleporting the target',
+'cout_rembourse_kill' => 'energy cost refunded on a kill',
+// BLADE STORM
+'cout_marque' => 'mark cost',
+'cout_marque_invisible' => 'mark cost while invisible',
+// BLADE STORM AUGMENT
+'duree_melee_combo_counter' => 'melee combo counter duration',
+
+/* WARFRAME - ATLAS */
+'absorption_rumbler' => 'max damage absorbed when transformed into a rumbler', // TODO: Is this used?
+// LANDSLIDE
+'rayon_impact' => 'impact radius',
+'bonus_rayon_impact_autres_relances' => 'impact radius bonus if recasted again within 1 second',
+'bonus_rayon_impact_1ere_relance' => 'impact radius bonus if recasted within 1 second',
+// LANDSLIDE AUGMENT
+'path_duration' => 'trail duration',
+'petrify_duration' => 'petrify duration',
+// TECTONICS
+'sante_bulwark' => 'bulwark health',
+'invulnerabilite_bulwark' => 'invulnerabilty period while incoming damage is added to the health of the bulwark',
+'p_bullwark_speed' => 'rolling velocity (petrified bullwark)',
+'p_bullwark_dist' => 'max roll distance (petrified bullwark)',
+'nb_bulwarks' => 'number of bulwarks',
+// TECTONICS AUGMENT
+'roll_distance' => 'max roll distance',
+// PETRIFY
+'stone_rate' => 'stone rate',
+// PETRIFY AUGMENT
+'chance_drop_ore_gaze' => 'chance to drop additional loot for petrified enemies when killed',
+// RUMBLERS
+'degats_pierres' => 'throwed stones damage',
+'sante_rumbler' => 'rumblers health',
+'armure_rumbler' => 'rumblers armor',
+'rumblers' => 'number of rumblers',
+// RUMBLERS AUGMENT
+
+/* WARFRAME - BANSHEE */
+// SONIC BOOM
+// SONIC BOOM AUGMENT
+// SONAR
+'debuff_ennemi'=>'damage taken by enemy',
+// SONAR AUGMENT
+'nouveau_sonar_frag_weakspot' => 'duration of new sonar based on remaining duration',
+// SILENCE
+// SILENCE AUGMENT
+// SOUND QUAKE
+'degats_sound_quake' => 'bonus damage every second',
+// SOUND QUAKE AUGMENT
+'quake_speed' => 'quake speed',
+
+/* WARFRAME - BARUUK */
+// ELUDE
+// ELUDE AUGMENT
+// LULL
+// LULL AUGMENT
+// DESOLATE HANDS
+// DESOLATE HANDS AUGMENT
+// SERENE STORM
+// SERENTE STORM AUGMENT
+
+/* WARFRAME - CHROMA */
+// SPECTRAL SCREAM
+// SPECTRAL SCREAM AUGMENT
+'degats_par_seconde_afterburn' => 'per second upon deactivation for each second Spectral Scream was active',
+'degats_max_afterburn' => 'max damage from afterburn',
+// ELEMENTAL WARD
+'bonus_sante' => 'base health bonus', // Heat
+'bonus_boucliers' => 'base shields bonus', // Electric
+'portee_degats' => 'range of the damage',
+'degats_decharge' => 'of the incoming damage discharged as an arc', // Electric
+'chance_degats' => 'chance per second to deal 5% of target max health as damage', // Toxin
+'min_degats_decharge' => 'min discharge damage',
+// ELEMENTAL WARD AUGMENT
+'conserve_effet_elemental_ward' => 'effect retained on allies for that percentage of the remaining duration when leaving the radius',
+// VEX ARMOR
+'multiplicateur_armure_par_coup' => 'armor multiplier for every point of shields lost',
+'multiplicateur_degats_par_coup' => 'damage multiplier for every point of health lost',
+'multiplicateur_armure_max' => 'max armor bonus',
+'multiplicateur_degats_max' => 'max damage bonus',
+// VEX ARMOR AUGMENT
+'rayon_proc' => 'proc radius',
+// EFFIGY
+'sante_sentinelle' => 'sentry health',
+'portee_sentinelle' => 'sentry attack range',
+'chance_credits' => 'credit chance',
+'bonus_credits' => 'credit multiplier',
+'vitesse_de_chroma' => 'chroma\'s movement speed',
+'armure_de_chroma' => 'chroma\'s armor',
+// EFFIGY AUGMENT
+'degats_par_sec_guided' => 'damage per second on contact during flight',
+
+/* WARFRAME - EMBER */
+// FIREBALL
+'ember_damage_area' => "Damage (Area)",
+'ember_range_min' => "Range (Min)",
+'ember_range_max' => "Range (Max)",
+// FIREBALL AUGMENT
+'bonus_degats_feu_allies' => 'heat damage bonus if casted on ally',
+'duree_bonus_degats_feu_allies' => 'heat damage bonus duration',
+'fireball_frenzy_augment_range' => "Augment Range",
+// IMMOLATION
+'ember_dr_min' => "Damage Reduction (Min)",
+'ember_dr_max' => "Damage Reduction (Max)",
+'ember_cout_par_sec' => "Cost / Sec @ Max Heat",
+// IMMOLATION AUGMENT
+'immolated_rad_augment_dr' => "Shared Damage Reduction",
+// FIRE BLAST
+'ember_heat_gen' => 'Heat Generation',
+'ember_heat_drop' => "Heat Drop",
+'ember_armor_redux_min' => "Armor Reduction (Min)",
+'ember_armor_redux_max' => "Armor Reduction (Max)",
+// FIRE BLAST AUGMENT
+'fire_blast_augment_min_heal' => "Min Heal",
+'fire_blast_augment_max_heal' => "Max Heal",
+'remove_debuffs_allies' => 'debuffs removed on allies that enter the fire',
+// INFERNO
+'cout_par_target' => "Cost / Target",
+'ember_dmg_sec_min' => "Damage / Sec (Min)",
+'ember_dmg_sec_max' => "Damage / Sec (Max)",
+// INFERNO AUGMENT
+
+
+/* WARFRAME - EQUINOX */
+'nuit' => 'night',
+'jour' => 'day',
+// METAMORPHOSIS
+'duree_transformation' => 'transformation duration',
+'stagger_knockdown_changement_forme' => 'stagger/knockdown radius when switching form', // TODO: Is it used?
+// METAMORPHOSIS AUGMENT
+'duree_duality' => 'other half duration',
+'degats_duality' => 'other half damage',
+// REST & RAGE
+// REST & RAGE AUGMENT
+'rayon_calm_and_frenzy' => 'spread radius from affected targets that are killed',
+'duree_calm_and_frenzy' => 'spread effect duration based on remaining duration',
+// PACIFY & PROVOKE
+'cout_par_capa_lancee' => 'energy cost for each ability casted by any Warframe within the area',
+// PACIFY & PROVOKE AUGMENT
+'degats_ennemis' => 'enemy damage',
+'snare_peaceful_provocation' => 'enemy slow-down',
+// MEND & MAIM
+'aura_soin_equinox' => 'accumulated percentage of max health/shield from defeated enemies in the aura',
+'aura_degats_equinox' => 'accumulated percentage of max health/shield from defeated enemies in the aura',
+// MEND & MAIN AUGMENT
+'charge_conserved' => 'charge conserved when switching between forms',
+
+/* WARFRAME - EXCALIBUR */
+// SLASH DASH
+// SLASH DASH AUGMENT
+'bonus_melee_counter_enemy_hit' => 'increase of the melee counter for each enemy hit',
+'bouclier_restaure_slash_dash' => 'shields restored on allies in the path',
+'debuffs_retires_slash_dash' => 'debuffs removed on allies in the path',
+// RADIAL BLIND
+// RADIAL BLIND AUGMENT
+'enemis_aveugles_marques_minimap' => 'blinded enemies marked on minimap',
+'enemis_aveugles_finisher_damage' => 'finisher damage on blinded enemies',
+// RADIAL JAVELIN
+'duree_melee_damage_bonus_enemy_hit' => 'duration of the melee damage bonus',
+// RADIAL JAVELIN AUGMENT
+'melee_damage_bonus_enemy_hit' => 'melee damage bonus for each enemy hit',
+// EXALTED BLADE
+// EXALTED BLADE AUGMENT
+
+/* WARFRAME - FROST */
+// FREEZE
+'degats_aoe' => ' in an area',
+'duree_zone_glace' => 'ice area duration',
+// FREEZE AUGMENT
+'bonus_degats_glace_allies' => 'cold damage bonus if casted on ally',
+'duree_bonus_degats_glace_allies' => 'cold damage bonus duration',
+'portee_degats_glace_allies' => 'cold damage bonus range',
+// ICE WAVE
+'longueur_vague'=>'wave length',
+'largeur_vague'=>'wave width',
+// ICE WAVE AUGMENT
+'duree_trainee_glace' => 'frozen trail duration',
+// SNOW GLOBE
+'sante_bulle' => 'snow globe health',
+'invulnerabilite_globe' => 'snow globe invulnerability',
+// SNOW GLOBE AUGMENT
+'chance_freeze_entre' => 'chance to freeze enemies entering the globe',
+'duree_freeze' => 'freeze duration',
+// AVALANCHE
+'freeze'=>'freeze',
+// AVALANCHE AUGMENT
+'coat_of_ice' => 'damage absorbed by hit by the coat of ice',
+
+/* WARFRAME - GARA */
+'by_gara' => 'Normal (Gara)',
+// SHATTERED LASH
+'knockback_r' => 'knockback radius for thrust attack',
+'degats_maintien' => 'sweep attack (hold key)',
+'arc_maintien' => 'sweep arc',
+
+'nb_miroirs' => 'number of mirrors',
+// SHATTERED LASH AUGMENT
+// SPLINTER STORM
+'shard_storm_r' => 'shard storm radius',
+'resistance_on_ally' => 'damage resistance to enemy attacks if casted on an ally',
+'debuff_on_enemy' => 'increased damage vulnerability to weapons and abilities if casted on enemy',
+// SPLINTER STORM AUGMENT
+'mending_splinters_heal' => 'friendly targets heal',
+// SPECTRORAGE
+'degats_miroirs' => 'mirror explosion damage',
+'degats_carousel' => 'carousel area explosion damage',
+'nb_pour_explo' => 'collapse treshold',
+// SPECTRORAGE AUGMENT
+// MASS VITRIFY
+'r_initial' => 'ring initial radius',
+'r_max' => 'ring max radius',
+'h_initiale' => 'ring initial height',
+'h_max' => 'ring max height',
+'duree_expansion' => 'ring expansion time',
+'crysta_time' => 'crystallization time',
+'degats_explosion_barriere' => 'barrier area explosion damage (based on Shattered Lash damage type)',
+'debuff_enemmis_crysta' => 'increased damage to crystallized enemies',
+// MASS VITRIFY AUGMENT
+
+
+/* WARFRAME - GARUDA */
+'semi_by_garuda' => 'Semi-auto mode (Garuda)',
+// DREAD MIRROR
+'inst_kill_threshold' => 'pounce instant kill, enemy life threshold',
+'dmg_capture_multi' => 'dread heart damage capture multiplier',
+'health_to_shield' => 'dread heart enemy health absorption',
+'cout_charge' => 'energy cost for the charged drain (key hold)',
+'bonus_drain_charge' => 'damage absorption bonus for the charged drain (key hold)',
+// DREAD MIRROR AUGMENT
+'dread_ward' => 'invulnerability, when Dread Mirror kills a target by ripping its life force',
+// BLOOD ALTAR
+'regen_sante'=>'health regeneration',
+'rayon_regen_sante' => 'health regeneration radius',
+'drain_par_sec' => 'impaled enemy life drain',
+'max_altars' => 'maximum active altars',
+// BLOOD ALTAR AUGMENT
+// BLOODLETTING
+// BLOODLETTING AUGMENT
+// SEEKING TALONS
+// SEEKING TALONS AUGMENT
+
+
+/* WARFRAME - GAUSS */
+// MACH RUSH
+'dash_distance' => 'dash distance',
+'cout_par_dist' => 'energy cost per meter travelled',
+'battery_charge' => 'battery charge',
+'rayon_knockdown' => 'knockdown radius',
+// MACH RUSH AUGMENT
+// KINETIC PLATING
+'cout_battery_par_sec' => 'battery cost per second',
+'min_battery_cost_per_hit' => 'minimum battery cost per hit',
+'max_battery_cost_per_hit' => 'maximum battery cost per hit',
+'min_dmg_reduction' => 'minimum damage reduction (empty battery)',
+'max_dmg_reduction' => 'maximum damage reduction (full battery)',
+'abs_dmg_to_energy' => 'of absorbed damage converted to energy',
+// KINETIC PLATING AUGMENT
+// THERMAL SUNDER
+'min_degats' => 'min initial damage (empty battery)',
+'max_degats' => 'max initial damage (full battery)',
+'status_min_dur' => 'min status duration (empty battery)',
+'status_max_dur' => 'max status duration (full battery)',
+'explo_min_degats' => 'min explosion damage (empty battery)',
+'explo_max_degats' => 'max explosion damage (full battery)',
+// THERMAL SUNDER AUGMENT
+// REDLINE
+'min_rof' => 'minimum rate of fire bonus (empty battery)',
+'max_rof' => 'maximum rate of fire bonus (full battery)',
+'min_mel_atkspd' => 'minimum melee attack speed bonus (empty battery)',
+'max_mel_atkspd' => 'maximum melee attack speed bonus (full battery)',
+'min_reload' => 'min reload speed bonus (empty battery)',
+'max_reload' => 'max reload speed bonus (full battery)',
+'min_holster' => 'min holster speed bonus (empty battery)',
+'max_holster' => 'max holster speed bonus (full battery)',
+// REDLINE AUGMENT
+
+/* WARFRAME - GRENDEL */
+// FEAST
+'grendel_maw_duree' => "Maw Duration",
+'grendel_maw_extra' => "Maw Duration Bonus",
+'grendel_armor_strip' => "Armor Removal",
+'grendel_drain_enemy' => "Energy Drain / enemy",
+// FEAST AUGMENT
+// NOURISH
+'grendel_self_heal' => "Self Heal",
+'grendel_nourish_energy' => "Nourish Energy",
+'grendel_nourish_armor' => "Nourish Armor",
+'grendel_nourish_strike' => "Nourish Strike",
+// NOURISH AUGMENT
+// REGURGITATE
+// REGURGITATE AUGMENT
+// PULVERIZE
+'grendel_coll_dmg_min' => "Collision Damage (Min)",
+'grendel_coll_dmg_max' => "Collision Damage (Max)",
+'grendel_dmg_sec' => "Consumed Enemy Damage / s",
+'grendel_dmg_ground_min' => "Ground Slam Damage (Min)",
+'grendel_dmg_ground_max' => "Ground Slam Damage (Max)",
+'grendel_range_ground_min' => "Ground Slam Radius (Min)",
+'grendel_range_ground_max' => "Ground Slam Radius (Max)",
+// PULVERIZE AUGMENT
+
+
+/* WARFRAME - HARROW */
+'by_harrow' => 'Normal (Harrow)',
+// CONDEMN
+'boucliers_restaures_condemn' => 'shields restored per target hit',
+// CONDEMN AUGMENT
+// PENANCE
+'bonus_duree_penance' => 'bonus duration for every 100 Shield and Overshields points drained',
+// PENANCE AUGMENT
+// THURIBLE
+'energy_convert' => 'energy convert',
+// THURIBLE AUGMENT
+'reduction_degats_allies' => 'allies incoming damage reduction while channeling',
+'energy_charge_allies' => 'allies energy charge whenever damaged',
+// COVENANT
+'bonus_chances_de_critique' => 'bonus to critical chances per 100 damage points prevented',
+'duree_chances_de_critique' => 'critical chances bonus duration',
+// COVENANT AUGMENT
+'duree_crit_covenant' => 'duration on critical chance bonus on headshot kill',
+
+/* WARFRAME - HILDRYN */
+'cout_bouclier' => 'overshield/shield cost',
+'cout_os_s_par_sec_par_ennemi' => 'overshield/shield cost per second / enemy linked', // Haven + Aegis Storm
+// BALEFIRE
+'cout_bouclier_par_tir' => 'overshield/shield cost per shot',
+// BALEFIRE AUGMENT
+// SHIELD PILLAGE
+// SHIELD PILLAGE AUGMENT
+// HAVEN
+'cap_bouclier_allies' => 'linked allies shield capacity bonus',
+'r_bouclier_allies' => 'linked allies shield recharge rate bonus',
+'cout_os_s_par_sec_par_ally' => 'overshield/shield cost per second / ally linked',
+'haven_invul_timer' => 'invulnerability upon sheilds being depleted',
+// HAVEN AUGMENT
+// AEGIS STORM
+'cout_os_s_par_sec' => 'overshield/shield cost per second',
+// AEGIS STORM AUGMENT
+
+/* WARFRAME - HYDROID */
+// TEMPEST BARRAGE
+// TEMPEST BARRAGE AUGMENT
+'chance_corrosive_status' => 'chance of each projectile to inflict a corrosive status',
+// TIDAL SURGE
+'degats_vague_fin' => ' when the wave dissipates',
+// TIDAL SURGE AUGMENT
+'proc_immunity_contact' => 'proc immunity on contact with the wall of water',
+// UNDERTOW
+// UNDERTOW AUGMENT
+'regen_sante_allies_par_sec' => 'health regen each 1.5 second for the allies in the pool',
+'drain_energy_mod_undertow' => 'energy consumed by each heal',
+// TENTACLE SWARM
+'degats_quand_emerge' => 'damage upon emerging',
+// TENTACLE SWARM AUGMENT
+'drops_sup' => 'chance of additional drop for enemies killed by tentacles',
+
+/* WARFRAME - INAROS */
+// DESICCATION
+'drain_vie_inaros' => 'of dot damage converted as health',
+// DESICCATION AUGMENT
+// DEVOUR
+// DEVOUR AUGMENT
+// SANDSTORM
+'snare_inaros' => 'inaros speed based on initial speed',
+'enemy_damage_to_inaros' => 'of their damage dealt to inaros by the enemies',
+// SANDSTORM AUGMENT
+'sandstorm_procs' => 'chance of inflicting status effects based on the damage types and mods on equipped melee weapon',
+// SCARAB STORM
+'cout_sante_charge_scarab' => 'health cost for 1% of scarab armor',
+'rayon_swarm' => 'swarm host healing aura radius',
+// SCARAB STORM AUGMENT
+'armure_resist_proc' => 'armor consumed for each effect resisted',
+
+/* WARFRAME - IVARA */
+'nullshield_arrow' => 'null-shield',
+'encumbered_arrow' => 'encumbered',
+'cloak_arrow' => 'cloak',
+'dashwire_arrow' => 'dashwire',
+'noise_arrow' => 'noise',
+'sleep_arrow' => 'sleep',
+// QUIVER
+'nombre_simultane' => 'max simultaneous',
+'portee_tirolienne' => 'zipline range',
+'boucliers_cible' => 'target shields',
+'no_regen_bouclier' => 'prevents shield regeneration for this duration',
+// QUIVER AUGMENT
+'val_crit_emp_quiver' => 'critical damage bonus for allies standing on the wire',
+'status_emp_quiver' => 'chance to prevent status effect for allies standing on the wire',
+// NAVIGATOR
+'degats_bonus_par_seconde' => 'projectile damage bonus per second',
+'max_degats_bonus_par_seconde' => 'max projectile damage bonus',
+// NAVIGATOR AUGMENT
+'piercing_navigator_crit' => 'projectile critical chance per hit',
+'piercing_navigator_max' => 'max critical chance bonus',
+'piercing_navigator_punch_through' => 'Projectile Punch Through',
+// PROWL
+'bonus_tir_tete' => 'bonus damage on headshots',
+'cout_par_seconde_immobile' => 'energy cost per second while stationary',
+'cout_par_seconde_mouvement' => 'energy cost per second while moving',
+'cout_par_att_melee' => 'energy cost per melee attack',
+'cout_coup_encaisse' => 'energy cost per hit taken',
+'portee_vol' => 'steal range',
+'delai_vol' => 'steal duration',
+'chance_vol' => 'steal chance',
+'portee_vol' => 'flight range',
+// PROWL AUGMENT
+// ARTEMIS BOW
+'concentrated_arrow' => 'concentrated arrow',
+// ARTEMIS BOW AUGMENT
+
+/* WARFRAME - KHORA */
+// WHIPCLAW
+// WHIPCLAW AUGMENT
+'whipclaw_bonus' => 'damage bonus after hitting 3 enemies',
+'whipclaw_decay' => 'damage bonus decay delay',
+// ENSNARE
+// ENSNARE AUGMENT
+// VENARI
+'command_cost' => 'command energy cost',
+'mark_duration' => 'mark duration',
+'respawn_cost' => 'manual respawn energy cost',
+'nat_respawn_time' => 'automatic respawn delay',
+// VENARI AUGMENT
+// STRANGLEDOME
+'degats_subits_ennemis' => 'damage received by affected enemies',
+// STRANGLEDOME AUGMENT
+'pilf_stran' => 'chances of dropping additional loot for enemies held',
+
+/* WARFRAME - LIMBO */
+'degats_rift' => 'damage upon entering or leaving the rift',
+// BANISH
+'regen_energie_si_allie' => 'energy regen if the target is an ally',
+// BANISH AUGMENT
+'sante_allie_rift' => 'of max health regen for banished allies',
+// STASIS
+// STASIS AUGMENT
+// RIFT SURGE
+'discharge_radius' => 'discharge radius',
+'banish_duration' => 'banish duration',
+// RIFT SURGE AUGMENT
+'bonus_degats_rift_ennemis' => 'additional damage bonus for each enemy in the rift',
+// CATACLYSM
+'rayon_final' => 'radius after duration is over',
+// CATACLYSM AUGMENT
+'bonus_duree_frag' => 'bonus duration for each enemy killed',
+
+/* WARFRAME - LOKI */
+// DECOY
+// DECOY AUGMENT
+'transfert_degats_decoy' => 'damage taken transferred to Loki/Decoy',
+'vitesse_de_cast_decoy' => 'casting speed of decoy',
+// INVISIBILITY
+// INVISIBILITY AUGMENT
+'bruit_arme_invisible' => 'weapon noise while invisible',
+// SWITCH TELEPORT
+'confusion'=>'enemy target confused',
+// SWITCH TELEPORT AUGMENT
+'allie_invulnerable_si_cible' => 'ally invulnerability if targeted',
+// RADIAL DISARM
+'degats_chargers'=>' to certain enemies',
+// RADIAL DISARM AUGMENT
+
+/* WARFRAME - MAG */
+'bonus_degats_magnetise' => 'damage bonus if the enemy is affected by Magnetize',
+// PULL
+'chance_energy_orb_tue_pull' => 'chance to get an energy orb on enemy death if the enemy is killed by Pull',
+// PULL AUGMENT
+'chance_pull_pickups' => 'chance to pull pickups',
+'energie_volee' => 'energy stolen from the target', // PVP
+// MAGNETIZE
+'explosion_aimant' => ' when enemy dies',
+'degats_zone_magnetize' => 'percentage of absorbed damage dealt to all the enemies in range',
+'magnetize_pull' => 'Magnetic Pull',
+// MAGNETIZE AUGMENT
+'disarm_chance' => 'disarm chance',
+// POLARIZE
+'regen_bouclier_polarize' => 'shield regen for allies if they touch the wave',
+'explosion_boucliers'=>' of drained shields',
+// POLARIZE AUGMENT
+'delai_r_bouclier' => 'shield recharge delay',
+'delai_r_bouclier_cible' => 'shield recharge delay of the target',
+'drain_overshield' => 'overshields from depleted enemy shields', // TODO: Still used?
+'counter_pulse_jam' => 'enemy weapons jammed/robotics disabled',
+// CRUSH
+'renversement' => 'knockdown',
+'r_bouclier_crush' => 'shield regen for party',
+'r_bouclier_crush_tick' => 'shield regen for party per enemy hit per tick',
+// CRUSH AUGMENT
+'reduction_armure'=>'enemy armor reduction',
+
+/* WARFRAME - MESA */
+// BALLISTIC BATTERY
+'degats_accumules' => 'damage stored based on the damage inflicted',
+'max_degats_accumules_coup' => 'max damage stored for every instance of damage',
+'max_degats_accumules' => 'maximum capacity of damage stored',
+// BALLISTIC BATTERY AUGMENT
+'chance_statut_bonus' => 'bonus status chance',
+// SHOOTING GALLERY
+'intervale_lasso' => 'lasso interval',
+// SHOOTING GALLERY AUGMENT
+// SHATTER SHIELD
+// SHATTER SHIELD AUGMENT
+'stagger_chance_reflected_bullets' => 'stagger chance of reflected bullets',
+// PEACEMAKER
+'max_bonus_degats' => "Max Damage Bonus",
+'fov_min' => 'minimum field of view',
+// PEACEMAKER AUGMENT
+'cout_esquive_peacemaker' => 'movement speed while channeling',
+
+/* WARFRAME - MIRAGE */
+// HALL OF MIRRORS
+'hologrammes' => 'hologram(s)',
+'degats_hologrammes' => 'holograms damage based on current weapon\'s total damage',
+// HALL OF MIRRORS AUGMENT
+'degats_bonus_holo_frag' => 'hologram damage bonus after killing an enemy',
+'max_degats_bonus_holo_frag' => 'max hologram damage bonus from killing enemies',
+// SLEIGHT OF HAND
+'degats_p_munitions' => 'explosion damage of ammo pickups',
+'degats_p_orbes_sante' => 'explosion damage of health orbs pickups',
+'degats_p_orbes_energie' => 'explosion damage of energy orbs pickups',
+'degats_p_orbes_xp' => 'explosion damage of affinity orbs pickups',
+'rayon_degats_p' => 'explosion radius of pickups',
+'degats_ziplines' => 'ziplines damage',
+'chances_statut_ziplines' => 'ziplines status chance',
+'degats_consoles' => 'control consoles damage',
+'aveuglement_mirage' => 'blind duration from Explosive Barrels, Kubrow Dens, and Storage Containers',
+'degats_lockers' => 'of their remaining health as damage from lockers',
+// SLEIGHT OF HAND AUGMENT
+'chance_status_explosion_pickups' => 'status chance of the explosion of the mines',
+'degats_p_munitions_mine' => 'explosion damage of ammo pickups mines',
+'degats_p_orbes_sante_mine' => 'explosion damage of health orbs pickups mines',
+'degats_p_orbes_energie_mine' => 'explosion damage of energy orbs pickups mines',
+'degats_p_orbes_xp_mine' => 'explosion damage of affinity orbs pickups mines',
+// ECLIPSE
+'bonus_degats_lumiere' => 'damage bonus while in light',
+'resistance_degats_ombre' => 'damage resistance while in the shadows',
+// ECLIPSE AUGMENT
+'bonus_eclipse_allies' => 'bonus of Eclipse to allies',
+'rayon_bonus_eclipse_allies' => 'radius around Mirage to benefit from the bonus of Eclipse for the allies',
+// PRISM
+'lasers' => 'lasers',
+'degats_ombre' => 'per second while mirage is in the shadows',
+'degats_lumiere' => 'per second while mirage is in the light',
+// PRISM AUGMENT
+'prisme_suit_mirage' => 'follow mirage for that duration',
+
+/* WARFRAME - NEKROS */
+// SOUL PUNCH
+'degats_explosion_projectile' => 'projectile explosion damage',
+// SOUL PUNCH AUGMENT
+'sante_resurrection' => 'health after resurrection',
+'sante_resurrection' => 'health restored for the revived ally',
+'energie_retiree_ennemi' => 'energy removed from target', // PVP Augment
+// TERRIFY
+// TERRIFY AUGMENT
+'vitesse_ennemi'=>'enemy speed',
+// DESECRATE
+'cout_par_corps' => 'energy cost per corpse',
+'re_loot'=>'chance to roll drop table again if orb',
+// DESECRATE AUGMENT
+'consomme_vie_cout' => 'health cost per corpse',
+// SHADOWS OF THE DEAD
+'sante_ombres' => 'Shadows health and shield bonus',
+'degats_ombres' => 'Shadows damage bonus',
+'health_decay_ombres' => 'Shadows health decay per sec',
+// SHADOWS OF THE DEAD AUGMENT
+'degats_envoyes_ombres' => 'damage transfered to each shadow within 50m',
+'portee_degats_renvoyes_ombres' => 'damage transfer range',
+
+/* WARFRAME - NEZHA */
+// FIRE WALKER
+'duree_flame' => 'flame duration',
+// FIRE WALKER AUGMENT
+'degats_accumules_fire_walker' => 'damage accumulated',
+'duree_fire_trail' => 'fire trail duration',
+'taille_fire_trail' => 'fire trail length',
+// BLAZING CHAKRAM
+'portee_charge' => 'boosted range',
+'degats_charge' => 'boosted damage',
+'chance_health_orb' => 'chance to get a health orb on enemy death',
+'chance_energy_orb' => 'chance to get an energy orb on enemy death',
+'ricochets' => 'max number of ricochets off enemies or objects',
+'ring_damage' => 'ring damage',
+// BLAZING CHAKRAM AUGMENT
+'orbe_vie'=>'chance of getting a life orb',
+// WARDING HALO
+'sante_anneau_feu' => 'fiery ring health',
+'invulnerabilite_anneau_feu' => 'invulnerability duration while all incoming damage is converted into health',
+// WARDING HALO AUGMENT
+'energie_recuperee_ward_recovery' => 'of the casting cost returned based on how much protection is left',
+'wh_effect_allies' => 'effectiveness when casted on an ally',
+// DIVINE SPEARS
+'degats_desactivation' => 'on expiration/deactivation',
+// DIVINE SPEARS AUGMENT
+
+/* WARFRAME - NIDUS */
+// VIRULENCE
+'regen_energy_per_hit' => 'energy regen per enemy hit',
+// VIRULENCE AUGMENT
+'teeming_crit' => 'primary weapon critical chance when hitting 4 enemies',
+'teeming_dur' => 'critical chance bonus duration',
+// LARVA
+// LARVA AUGMENT
+'lava_burst_degats' => 'damage upon reactivation',
+'lava_burst_rayon' => 'damage upon reactivation range',
+// PARASITIC LINK
+'rayon_lien_allies' => 'range for symbiosis with ally',
+'rayon_lien_ennemis' => 'range for  parasitic link with enemy',
+'bonus_puissance_lien_allie' => 'power strength bonus for both when linked with ally',
+'degats_transferes_lien_ennemi' => 'incoming damage transfered to linked enemy',
+// PARASITIC LINK AUGMENT
+// RAVENOUS
+'regen_vie_zone' => 'health regen inside the area',
+// RAVENOUS AUGMENT
+'insatiable' => 'chance of generating an additional Mutation stack whenever one is gained, while stading in the Ravenous infestation',
+
+/* WARFRAME - NOVA */
+// NULL STAR
+// NULL STAR AUGMENT
+'degats_explosif_mod_nova' => 'blast explosion damage after recast',
+// ANTIMATTER DROP
+'degats_absorbes'=>' of all absorbed damage converted to radiation damage',
+'max_degats_absorbes' => 'max damage that can be absorbed',
+// ANTIMATTER DROP AUGMENT
+'rayon_absorption' => 'absorption radius',
+'orbe_stationnaire_nova' => 'duration before orb explodes', // PVP
+// WORM HOLE
+'utilisations'=>'use(s)',
+// WORM HOLE AUGMENT
+'bonus_vitesse_traverse' => 'speed bonus after passing through',
+'duree_bonus_vitesse_traverse' => 'speed bonus duration',
+// MOLECULAR PRIME
+// MOLECULAR PRIME AUGMENT
+'molecular_fission_2' => 'null star charge restored upon killing a primed enemy',
+'molecular_fission' => 'chance to restore one more null star charge upon killing a primed enemy',
+
+/* WARFRAME - NYX */
+// MIND CONTROL
+'dmg_conversion' => 'damage conversion duration',
+// MIND CONTROL AUGMENT
+'bonus_degats_cible_controlee' => 'damage bonus for the controlled target',
+// PSYCHIC BOLTS
+'vitesse_infestes'=>'infested speed',
+'carreaux'=>'bolts',
+// PSYCHIC BOLTS AUGMENT
+// CHAOS
+// CHAOS AUGMENT
+'duree_chaos_zone' => 'chaos area duration',
+// ABSORB
+'cout_absorb' => 'additional energy cost every 1000 damage absorbed',
+'passive_dmg_treshold' => 'passive damage treshold',
+// ABSORB AUGMENT
+'duree_pulse_mod_singularity' => 'ring delay', // PVP
+'portee_pulse_mod_singularity' => 'ring radius', // PVP
+
+/* WARFRAME - OBERON */
+// SMITE
+'rayon_projectiles'=>'projectiles radius',
+'degats_projectiles'=>' per projectile',
+'weaken_projectile' => 'enemy target weakened by projectile',
+// SMITE AUGMENT
+'bonus_degats_radiation_allies' => 'radiation damage bonus if casted on ally',
+'duree_bonus_degats_radiation_allies' => 'radiation damage bonus duration',
+'portee_bonus_degats_radiation_allies' => 'radiation damage bonus range',
+// HALLOWED GROUND
+'rayon_vague' => 'radius',
+// HALLOWED GROUND AUGMENT
+'hallowed_ground_duration_bonus' => 'passive duration bonus',
+// RENEWAL
+'soin_initial' => 'initial heal',
+'duree_saignement' => 'bleedout duration',
+'iron_renewal_armor' => 'iron renewal buff armor bonus',
+'duree_iron_renewal_armor' => 'iron renewal buff bonus duration after renewal is deactivated',
+'cout_par_sec_par_allie_affecte' => 'energy cost per second per affected ally',
+'hot'=>'health over time after contact',
+// RENEWAL AUGMENT
+'sante_phoenix_renewal' => 'health regen upon taking fatal damage while under the effect of renewal',
+'delai_phoenix_renewal' => 'health regen delay',
+// RECKONING
+'rayon_aveuglement_oberon' => 'blind radius around enemies who survived',
+// RECKONING AUGMENT
+'degats_par_sec_zone_reckoning' => 'per second in hallowed ground field created',
+'duree_zone_reckoning' => 'duration of hallowed ground field created',
+'bonus_armure_zone_reckoning' => 'armor if in the hallowed ground field created',
+'health_orbs_unusable_enemies' => 'Health orbs unusable by enemies in PvP', // PVP
+
+/* WARFRAME - OCTAVIA */
+'oct_vivace' => 'vivace',
+'oct_nocturne' => 'nocturne',
+'oct_opera' => 'opera',
+'oct_forte' => 'forte',
+// MALLET
+// MALLET AUGMENT
+// RESONATOR
+// RESONATOR AUGMENT
+'conductor_mod' => 'resonator speed while moving to aim point',
+// METRONOME
+// METRONOME AUGMENT
+// AMP
+'min_damage_multiplier' => 'initial damage multiplier',
+'max_damage_multiplier' => 'max damage multiplier',
+// AMP AUGMENT
+
+/* WARFRAME - REVENANT */
+// ENTHRALL
+'degats_pillar' => 'pillar damage per second',
+'max_thralls' => 'max thralls',
+'rayon_pillar' => 'pillar damage range',
+'duree_pillar' => 'pillar duration',
+// ENTHRALL AUGMENT
+// MESMER SKIN
+'charges'=>'charges',
+'reflect' => 'reflected damage and status',
+'enthrall_cost' => 'enthrall cost reduction on affected enemies',
+// MESMER SKIN AUGMENT
+// REAVE
+'drain' => 'shield and energy drain',
+'drain_enthralled' => 'shield and energy drain on enthralled enemies',
+// REAVE AUGMENT
+'blinding_reave' => 'blind duration',
+// DANSE MACABRE
+'degats_par_seconde_c'=>' damage par second',
+// DANSE MACABRE AUGMENT
+
+/* WARFRAME - RHINO */
+// RHINO CHARGE
+'distance_charge' => 'charge range',
+'chance_statut_si_iron_skin' => 'blast status effect if iron skin is active',
+'degats_add_si_rhino_stomp' => 'more damage if enemy is affect by rhino stomp',
+'bonus_distance_charge_1ere_relance' => 'range bonus if recasted within 1 second', // TODO: Is this used?
+'bonus_distance_charge_autres_relances' => 'range bonus if recasted again within 1 second', // TODO: Is this used?
+// RHINO CHARGE AUGMENT
+'armure_ennemi_touche' => 'base armor bonus for each enemy hit',
+'duree_armure_ennemi_touche' => 'armor bonus duration',
+// IRON SKIN
+'bouclier_absorption'=>'absorbed damage',
+// IRON SKIN AUGMENT
+'degats_recast_iron_skin' => 'puncture damage of remaining health if recasted',
+'chance_proc_recast_iron_skin' => 'status chance of puncture if recasted',
+// ROAR
+// ROAR AUGMENT
+'rayon_proc_penetration' => 'puncture status effect range',
+// RHINO STOMP
+// RHINO STOMP AUGMENT
+'regen_iron_skin' => 'iron skin health replenished for each enemy affected',
+
+/* WARFRAME - SARYN */
+// SPORES
+'spores' => 'spores',
+'growth_spores' => 'damage growth per enemy and per second',
+'degats_spores' => 'per spore and per second',
+// SPORES AUGMENT
+'bonus_degats_poison_allies' => 'toxin damage bonus if casted on ally',
+'duree_bonus_degats_poison_allies' => 'toxin damage bonus duration',
+'venom_dose_ally_range' => 'toxin damage bonus range',
+// MOLT
+'degats_mue_saryn' => 'when destroyed',
+// MOLT AUGMENT
+'sante_par_sec_10_sec' => 'health per second for 10 seconds',
+// TOXIC LASH
+'bonus_poison' => 'toxin melee damage',
+'reduction_degats_bloque' => 'damage reduction while blocking',
+'statut_melee' => 'melee toxin status chance',
+// TOXIC LASH AUGMENT
+'degats_nuage_poison' => 'toxic clouds damage per second for ',
+'rayon_nuage_poison' => 'toxic clouds radius',
+'contagion_cloud_duration' => 'toxic cloud duration',
+'contagion_cloud_range' => 'toxic cloud range',
+// MIASMA
+// MIASMA AUGMENT
+
+/* WARFRAME - TITANIA */
+// SPELLBIND
+// SPELLBIND AUGMENT
+// TRIBUTE
+'aura_dust' => 'dust',
+'aura_entangle' => 'entangle',
+'aura_full_moon' => 'full moon',
+'aura_thorns' => 'thorns',
+'rayon_buff' => 'buff range',
+'rayon_debuff' => 'debuff radius',
+'degats_companions' => 'damage bonus for companions, sentinels, MOA and Titania\'s Razorflys',
+'rayon_partage_buff' => 'radius in which the buff is shared with allies',
+'precision_ennemis' => 'enemy accuracy',
+// TRIBUTE AUGMENT
+// LANTERN
+// LANTERN AUGMENT
+'degats_melee_a_titania' => 'melee damage bonus on attracted enemies',
+// RAZORWING
+// RAZORWING AUGMENT
+'razorwing_blitz_buff' => 'flight speed/fire rate buff duration',
+
+/* WARFRAME - TRINITY */
+// WELL OF LIFE
+'drain_vie_max'=>'max health to drain for each player',
+'target_health_multiplier' => 'target health multiplier',
+// WELL OF LIFE AUGMENT
+'orbs_dropped' => 'health orbs dropped on enemy death',
+// ENERGY VAMPIRE
+'degats_par_pulsation' => 'remaining health removed each pulse',
+'regen_energie_par_pulsation'=>'energy regen each pulse',
+'pulsations'=>'pulses',
+// ENERGY VAMPIRE AUGMENT
+'excess_energy_shields' => 'excess energy converted to shields and overshields',
+// LINK
+// LINK AUGMENT
+// BLESSING
+'regen_sante_trinity'=>'group health restored',
+'regen_bouclier_trinity'=>'group shield restored',
+'resistance_trinity_blessing' => 'of max % of health healed as damage resistance',
+// BLESSING AUGMENT
+
+/* WARFRAME - VALKYR */
+'vitesse_ennemi_valkyr'=>'enemy speed',
+// RIPLINE
+// RIPLINE AUGMENT
+'nombre_casts_gratuits' => 'number of free casts while airborne after first cast',
+// WARCRY
+// WARCRY AUGMENT
+'duree_kill_melee' => 'duration increase for each melee kill',
+// PARALYSIS
+'degats_des_boucliers'=>' of shield capacity before drain',
+'consommation_bouclier'=>'shield use',
+'force_renversement' => 'knockback strength',
+// PARALYSIS AUGMENT
+// HYSTERIA
+'attaque_aerienne' => 'aerial attack',
+// HYSTERIA AUGMENT
+'leap_distance' => 'leap distance',
+'r_bouclier_kill' => 'shields restored after each kill', // PVP
+
+/* WARFRAME - VAUBAN */
+'max_active' => "Max Active",
+// TESLA NERVOS
+// TESLA NERVOS AUGMENT
+'tesla_augment_burst_range' => "Burst Range",
+// MINELAYER
+'grab_range' => "Grab Range",
+'attach_radius' => "Attach Radius",
+'minelayer_tether' => "Tether Coil",
+'minelayer_flechette' => "Flechette Orb",
+'minelayer_vector_pad' => "Vector Pad",
+'minelayer_overdriver' => "Overdriver",
+'max_targets' => "Max Targets",
+'damage_bonus' => "Damage Increase",
+'boost' => "Speed Increase",
+// MINELAYER AUGMENT
+// PHOTON STRIKE
+'strike_delay' => "Strike Delay",
+// PHOTON STRIKE AUGMENT
+'photon_augment_enemies_to_hit' => "Enemies to Hit",
+// BASTILLE
+'bastille_duree' => "Bastille Duration",
+'vortex_dmg_sec' => "Vortex Damage / sec",
+'vortex_duree' => "Vortex Duration",
+'armor_buff_duree' => "Armor Buff Duration",
+'armor_strip_sec' => "Armor Strip / sec",
+'vortex_auto_duree' => "Vortex Duration (Auto-Collapse)",
+'armor_buff_cap' => "Armor Buff Cap",
+'bastille_max_targets' => "Bastille Max Targets",
+// BASTILLE AUGMENT
+'bastille_augment_repel_chance' => "Repel Chance",
+'bastille_augment_added_duration' => "Added Duration",
+'bastille_augment_damage' => "Repel Damage",
+
+/* WARFRAME - VOLT */
+// SHOCK
+'chaine'=>'enemy chain',
+'rayon_rebond' => 'bounce radius',
+// SHOCK AUGMENT
+'bonus_degats_electriques_allies' => 'electric damage bonus if casted on ally',
+'duree_bonus_degats_electriques_allies' => 'electric damage bonus duration',
+'shock_trooper_range_allies' => 'electric damage bonus range',
+// SPEED
+'vitesse_rechargement' => 'reload speed buff',
+// SPEED AUGMENT
+'degats_enemis_touches_speed' => ' electrical damage on contact with enemy',
+'rayon_degats' => 'radius for the damage',
+'bonus_duree_touche_enemi' => 'bonus duration when running into an enemy', // PVP
+'degats_abs_static_dis' => 'of damage absorbed added to static discharge',
+// ELECTRIC SHIELD
+'degats_tir_a_travers_bouclier' => 'electrical damage when firing through the shield',
+'critique_tir_a_travers_bouclier' => 'critical damage when firing through the shield',
+// ELECTRIC SHIELD AUGMENT
+'r_bouclier_passe_travers_barriere' => 'ally shields restored when passing through',
+// DISCHARGE
+'duree_effet' => 'effect duration',
+// DISCHARGE AUGMENT
+'degats_convertis_bouclier' => 'damage converted to shields for the warframe',
+'degats_convertis_boucliers_tous_allies' => 'of damage converted to shields for Volt and allies',
+
+/* WARFRAME - WISP */
+// RESERVOIRS
+'wisp_vita' => 'vitality',
+'wisp_haste' => 'haste',
+'wisp_shock' => 'shock',
+// RESERVOIRS AUGMENT
+// WIL-O-WISP
+// WIL-O-WISP AUGMENT
+// BREACH SURGE
+'spark_chance' => 'spark chance',
+// BREACH SURGE AUGMENT
+// SOL GATE
+'mote_bonus' => 'Vitality/Shock mote',
+// SOL GATE AUGMENT
+
+/* WARFRAME - WUKONG */
+// CELESTIAL TWIN
+// CELESTIAL TWIN AUGMENT
+'cs_range' => 'twin slam attack range',
+'cs_cost' => 'twin slam attack energy cost',
+// CLOUD WALKER
+'sante_par_metre' => 'health per meter',
+// CLOUD WALKER AUGMENT
+// DEFY
+'multiplicateur_degats_abs_invul' => 'damage absorbed during invulnerability multiplier',
+'duree_multiplicateur_armure' => 'armor multiplier duration',
+// DEFY AUGMENT
+// PRIMAL FURY
+// PRIMAL FURY AUGMENT
+'chances_de_critique_kill' => 'critical chance bonus on kill',
+'bonus_par_seconde_primal_rage' => 'critical chance bonus reduction per second',
+
+/* WARFRAME - ZEPHYR */
+// TAIL WIND
+'cout_airborne' => 'energy cost while airborne',
+'degats_saut_zephyr' => ' area damage from launch point',
+'rayon_degats_saut_zephyr' => 'area range',
+'hauteur_saut_zephyr' => 'Height reached if starting from the ground',
+'degats_saut_zephyr_air' => ' on contact with enemies while in air',
+'rayon_degats_saut_zephyr_air' => 'area range in air',
+'vitesse_dive_bomb' => 'dive bomb speed',
+'degats_dive_bomb' => 'dive bomb damage',
+'rayon_dive_bomb' => 'dive bomb explosion radius',
+// TAIL WIND AUGMENT
+'attire_ennemis' => 'damage bonus for each eneny hit while airborne',
+// AIRBURST
+// AIRBURST AUGMENT
+// TURBULENCE
+// TURBULENCE AUGMENT
+'vitesse_allies' => 'speed for Zephyr and allies',
+'vitesse_projectiles_allies' => 'projectile speed for Zephyr and allies',
+// TORNADO
+// TORANDO AUGMENT
+'taille_tornades' => 'tornadoes size',
+
+/* K-DRIVE */
+'kdrive_blast_landing' => 'when landing a trick',
+'kdrive_boost_shockwave' => 'stunning shockwave delay while boosting',
+'kdrive_boost_speed' => 'k-drive boost speed',
+'kdrive_damage_dismount' => 'damage upon dismounting',
+'kdrive_damage_dismount_radius' => 'radius of damage upon dismounting',
+'kdrive_dbl_jump_height' => 'double jump height',
+'kdrive_dmg_dismount' => 'damage on sliced enemies on directional dismount',
+'kdrive_electric_landing' => 'when landing a trick',
+'kdrive_gravity_fall' => 'gravity while falling down',
+'kdrive_grind_magnetism' => 'k-drive grind magnetism',
+'kdrive_grind_speed' => 'k-drive grind speed',
+'kdrive_invuln' => 'invulnerability upon mounting',
+'kdrive_jump_charge' => 'jump charge time',
+'kdrive_jump_height' => 'k-drive jump height',
+'kdrive_pt_multiplier' => 'point multiplier to trick score',
+'kdrive_resist_fall' => 'chance to resist falls',
+'kdrive_speed' => 'k-drive speed',
+'kdrive_trick_trail' => 'trail damage',
+'kdrive_velocity_when_falling' => 'velocity when falling',
+
+/* ARCHWINGS */
+/* AMESHA */
+'amesha_bonus' => 'to power range/strenght/duration for all allies',
+'degats_energie' => 'damage converted to energy',
+'vitesse_et_atk_speed_ennemis' => 'movement/attack speed for affected enemies',
+/* ITZAL */
+'drones' => 'drones',
+'drone_attack_range' => 'drone attack range',
+'freeze_cosmic_crush' => 'freeze duration', // Augment
+/* ODONATA */
+'bonus_degats_critiques_bouclier' => 'critical damage to the shots fired through the shield',
+'bonus_degats_feu_bouclier' => 'heat damage to the shots fired through the shield',
+'desarmement' => 'disarmament',
+'missiles_par_volee' => 'number of missiles per volley',
+'nombre_de_volees' => 'number of volleys',
+'rayon_energy_shell_allies' => 'applied to allies in this radius', // Augment
+/* ELYTRON */
+'degats_flamme_core_vent' => 'exhaust fumes damage',
+'duree_contrail' => 'contrail duration',
+'duree_degats_flamme' => 'exhaust fumes duration',
+'freq_explosions' => 'explosion frequency',
+'portee_explosion' => 'explosion range',
+
+/* COMPANIONS */
+'companion_armor' => 'companion_armor',
+'companion_health' => 'companion health',
+'degats_mort' => 'explosive damage upon death',
+'overheat' => 'overheat attack',
+'portee_p' => 'target range',
+
+// END OF 'STATS' LANGUAGE ARRAY
