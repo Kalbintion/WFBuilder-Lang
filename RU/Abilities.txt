@@ -1,184 +1,230 @@
-1,ash|shuriken,Сюрикен
-2,ash|smoke_screen,Дымовая завеса
-3,ash|teleport,Телепорт
-4,ash|blade_storm,Буря клинков
-5,ember|fireball,Огненный Шар
-6,ember|immolation,Immolation
-7,ember|fire_blast,Огненный Взрыв
-8,ember|inferno,Inferno
-9,excalibur|slash_dash,Рассекающий рывок
-10,excalibur|radial_blind,Ослепляющий свет
-11,excalibur|radial_javelin,Radial Javelin
-12,excalibur|exalted_blade,Exalted Blade
-13,frost|freeze,Заморозка
-14,frost|ice_wave,Ледяная волна
-15,frost|snow_globe,Снежная сфера
-16,frost|avalanche,Лавина
-17,loki|decoy,Приманка
-18,loki|invisibility,Невидимость
-19,loki|switch_teleport,Транспозиция
-20,loki|radial_disarm,Обезоруживание
-21,mag|pull,Притяжение
-22,mag|magnetize,Magnetize
-23,mag|polarize,Polarize
-24,mag|crush,Сокрушение
-25,banshee|sonic_boom,Звуковой удар
-26,banshee|sonar,Сонар
-27,banshee|silence,Тишина
-28,banshee|sound_quake,Звуковой взрыв
-29,nekros|soul_punch,Удар души
-30,nekros|terrify,Устрашение
-31,nekros|desecrate,Осквернение
-32,nekros|shadow_of_the_dead,Тени мёртвых
-33,nova|null_star,Звезда пустоты
-34,nova|antimatter_drop,Сброс антивещества
-35,nova|worm_hole,Червоточина
-36,nova|molecular_prime,Молекулярный заряд
-37,nyx|mind_control,Власть над разумом
-38,nyx|psychic_bolts,Псионические болты
-39,nyx|chaos,Хаос
-40,nyx|absorb,Поглощение
-41,oberon|smite,Кара
-42,oberon|hallowed_ground,Святая земля
-43,oberon|renewal,Восстановление
-44,oberon|reckoning,Искупление
-45,rhino|rhino_charge,Рывок Рино
-46,rhino|iron_skin,Железная кожа
-47,rhino|roar,Рёв
-48,rhino|rhino_stomp,Топот Рино
-49,saryn|spores,Spores
-50,saryn|molt,Линька
-51,saryn|toxic_lash,Toxic Lash
-52,saryn|miasma,Миазма
-53,trinity|well_of_life,Источник жизни
-54,trinity|energy_vampire,Энергетический вампир
-55,trinity|link,Связь
-56,trinity|blessing,Благословление
-57,valkyr|rip_line,Разрывающий шнур
-58,valkyr|warcry,Боевой клич
-59,valkyr|paralysis,Паралич
-60,valkyr|hysteria,Истерия
-61,vauban|tesla_nervos,Tesla Nervos
-62,vauban|minelayer,Minelayer
-63,vauban|photon_strike,Photon Strike
-64,vauban|bastille,Bastille
-65,volt|shock,Шок
-66,volt|speed,Скорость
-67,volt|electric_shield,Электрический щит
-68,volt|discharge,Discharge
-69,zephyr|tail_wind,Попутный ветер
-70,zephyr|airburst,Airburst
-71,zephyr|turbulence,Турбулентность
-72,zephyr|tornado,Торнадо
-73,hydroid|tempest_barrage,Грозовой шквал
-74,hydroid|tidal_surge,Приливная волна
-75,hydroid|undertow,Отлив
-76,hydroid|tentacle_swarm,Рой щупалец
-77,mirage|hall_of_mirrors,Hall of Mirrors
-78,mirage|sleight_of_hand,Sleight of Hand
-79,mirage|eclipse,Eclipse
-80,mirage|prism,Prism
-81,limbo|banish,Banish
-82,limbo|rift_walk,Stasis
-83,limbo|rift_surge,Rift Surge
-84,limbo|cataclysm,Cataclysm
-85,odonata|energy_shell,Energy Shell
-86,odonata|disarray,Disarray
-87,odonata|seeking_fire,Seeking Fire
-88,odonata|repel,Repel
-89,elytron|bloomer,Bloomer
-90,elytron|core_vent,Core Vent
-91,elytron|thumper,Thumper
-92,elytron|warhead,Warhead
-93,mesa|ballistic_battery,Ballistic Battery
-94,mesa|shooting_gallery,Shooting Gallery
-95,mesa|shatter_shield,Shatter Shield
-96,mesa|peacemaker,Peacemaker
-97,itzal|blink,Blink
-98,itzal|penumbra,Penumbra
-99,itzal|cosmic_crush,Cosmic Crush
-100,itzal|fighter_escort,Fighter Escort
-101,chroma|spectral_scream,Spectral Scream
-102,chroma|elemental_ward,Elemental Ward
-103,chroma|vex_armor,Vex Armor
-104,chroma|effigy,Effigy
-105,equinox|metamorphosis,Metamorphosis
-106,equinox|rest_&_rage,Rest & Rage
-107,equinox|pacify_&_provoke,Pacify & Provoke
-108,equinox|mend_&_maim,Mend & Maim
-109,atlas|landslide,Landslide
-110,atlas|tectonics,Tectonics
-111,atlas|petrify,Petrify
-112,atlas|rumblers,Rumblers
-113,wukong|celestial_twin,Celestial Twin
-114,wukong|cloud_walker,Cloud Walker
-115,wukong|defy,Defy
-116,wukong|primal_fury,Primal Fury
-117,ivara|quiver,Quiver
-118,ivara|navigator,Navigator
-119,ivara|prowl,Prowl
-120,ivara|artemis_bow,Artemis Bow
-121,nezha|fire_walker,Fire Walker
-122,nezha|blazing_chakram,Blazing Chakram
-123,nezha|warding_halo,Warding Halo
-124,nezha|divine_spears,Divine Spears
-125,inaros|dessication,Desiccation
-126,inaros|devour,Devour
-127,inaros|sandstorm,Sandstorm
-128,inaros|scarab_swarm,Scarab Swarm
-129,amesha|watchful_swarm,Watchful Swarm
-130,amesha|benevolent_decoy,Benevolent Decoy
-131,amesha|warding_grace,Warding Grace
-132,amesha|vengeful_rush,Vengeful Rush
-133,titania|spellbind,Spellbind
-134,titania|tribute,Tribute
-135,titania|lantern,Lantern
-136,titania|razorwing,Razorwing
-137,nidus|virulence,Virulence
-138,nidus|larva,Larva
-139,nidus|parasitic_link,Parasitic Link
-140,nidus|ravenous,Ravenous
-141,octavia|mallet,Mallet
-142,octavia|resonator,Résonator
-143,octavia|metronome,Metronome
-144,octavia|amp,Amp
-145,harrow|condemn,Condemn
-146,harrow|penance,Penance
-147,harrow|thurible,Thurible
-148,harrow|covenant,Covenant
-149,gara|shattered_lash,Shattered Lash
-150,gara|splinter_storm,Splinter Storm
-151,gara|spectrorage,Spectrorage
-152,gara|mass_vitrify,Mass Vitrify
-153,khora|whipclaw,Whipclaw
-154,khora|ensnare,Ensnare
-155,khora|venari,Venari
-156,khora|strangledome,Strangledome
-157,revenant|enthrall,Enthrall
-158,revenant|mesmer_skin,Mesmer Skin
-159,revenant|reave,Reave
-160,revenant|danse_macabre,Danse Macabre
-161,garuda|dread_mirror,Dread Mirror
-162,garuda|blood_altar,Blood Altar
-163,garuda|bloodletting,Bloodletting
-164,garuda|seeking_talons,Seeking Talons
-165,baruuk|elude,Elude
-166,baruuk|lull,Lull
-167,baruuk|desolate_hands,Desolate Hands
-168,baruuk|serene_storm,Serene Storm
-169,hildryn|balefire,Balefire
-170,hildryn|shield_pillage,Shield Pillage
-171,hildryn|haven,Haven
-172,hildryn|aegis_storm,Aegis Storm
-173,wisp|reservoirs,Reservoirs
-174,wisp|wil-o-wisp,Wil-O-Wisp
-175,wisp|breach_surge,Breach Surge
-176,wisp|sol_gate,Sol Gate
-177,gauss|mach_rush,Mach Rush
-178,gauss|kinetic_plating,Kinetic Plating
-179,gauss|thermal_sunder,Thermal Sunder
-180,gauss|redline,Redline
-181,grendel|feast,Feast
-182,grendel|nourish,Nourish
-183,grendel|regurgitate,Regurgitate
-184,grendel|pulverize,Pulverize
+# Ash
+1,Сюрикен
+2,Дымовая завеса
+3,Телепорт
+4,Буря клинков
+# Ember
+5,Огненный Шар
+6,Immolation
+7,Огненный Взрыв
+8,Inferno
+# Excalibur
+9,Рассекающий рывок
+10,Ослепляющий свет
+11,Radial Javelin
+12,Exalted Blade
+# Frost
+13,Заморозка
+14,Ледяная волна
+15,Снежная сфера
+16,Лавина
+# Loki
+17,Приманка
+18,Невидимость
+19,Транспозиция
+20,Обезоруживание
+# Mag
+21,Притяжение
+22,Magnetize
+23,Polarize
+24,Сокрушение
+# Banshee
+25,Звуковой удар
+26,Сонар
+27,Тишина
+28,Звуковой взрыв
+# Nekros
+29,Удар души
+30,Устрашение
+31,Осквернение
+32,Тени мёртвых
+# Nova
+33,Звезда пустоты
+34,Сброс антивещества
+35,Червоточина
+36,Молекулярный заряд
+# Nyx
+37,Власть над разумом
+38,Псионические болты
+39,Хаос
+40,Поглощение
+# Oberon
+41,Кара
+42,Святая земля
+43,Восстановление
+44,Искупление
+# Rhino
+45,Рывок Рино
+46,Железная кожа
+47,Рёв
+48,Топот Рино
+# Saryn
+49,Spores
+50,Линька
+51,Toxic Lash
+52,Миазма
+# Trinity
+53,Источник жизни
+54,Энергетический вампир
+55,Связь
+56,Благословление
+# Valkyr
+57,Разрывающий шнур
+58,Боевой клич
+59,Паралич
+60,Истерия
+# Vauban
+61,Tesla Nervos
+62,Minelayer
+63,Photon Strike
+64,Bastille
+# Volt
+65,Шок
+66,Скорость
+67,Электрический щит
+68,Discharge
+# Zephyr
+69,Попутный ветер
+70,Airburst
+71,Турбулентность
+72,Торнадо
+# Hydroid
+73,Грозовой шквал
+74,Приливная волна
+75,Отлив
+76,Рой щупалец
+# Mirage
+77,Hall of Mirrors
+78,Sleight of Hand
+79,Eclipse
+80,Prism
+# Limbo
+81,Banish
+82,Stasis
+83,Rift Surge
+84,Cataclysm
+# Odonata
+85,Energy Shell
+86,Disarray
+87,Seeking Fire
+88,Repel
+# Elytron
+89,Bloomer
+90,Core Vent
+91,Thumper
+92,Warhead
+# Mesa
+93,Ballistic Battery
+94,Shooting Gallery
+95,Shatter Shield
+96,Peacemaker
+# Itzal
+97,Blink
+98,Penumbra
+99,Cosmic Crush
+100,Fighter Escort
+# Chroma
+101,Spectral Scream
+102,Elemental Ward
+103,Vex Armor
+104,Effigy
+# Equinox
+105,Metamorphosis
+106,Rest & Rage
+107,Pacify & Provoke
+108,Mend & Maim
+# Atlas
+109,Landslide
+110,Tectonics
+111,Petrify
+112,Rumblers
+# Wukong
+113,Celestial Twin
+114,Cloud Walker
+115,Defy
+116,Primal Fury
+# Ivara
+117,Quiver
+118,Navigator
+119,Prowl
+120,Artemis Bow
+# Nezha
+121,Fire Walker
+122,Blazing Chakram
+123,Warding Halo
+124,Divine Spears
+# Inaros
+125,Desiccation
+126,Devour
+127,Sandstorm
+128,Scarab Swarm
+# Amesha
+129,Watchful Swarm
+130,Benevolent Decoy
+131,Warding Grace
+132,Vengeful Rush
+# Titania
+133,Spellbind
+134,Tribute
+135,Lantern
+136,Razorwing
+# Nidus
+137,Virulence
+138,Larva
+139,Parasitic Link
+140,Ravenous
+# Octavia
+141,Mallet
+142,Résonator
+143,Metronome
+144,Amp
+# Harrow
+145,Condemn
+146,Penance
+147,Thurible
+148,Covenant
+# Gara
+149,Shattered Lash
+150,Splinter Storm
+151,Spectrorage
+152,Mass Vitrify
+# Khora
+153,Whipclaw
+154,Ensnare
+155,Venari
+156,Strangledome
+# Revenant
+157,Enthrall
+158,Mesmer Skin
+159,Reave
+160,Danse Macabre
+# Garuda
+161,Dread Mirror
+162,Blood Altar
+163,Bloodletting
+164,Seeking Talons
+# Baruuk
+165,Elude
+166,Lull
+167,Desolate Hands
+168,Serene Storm
+# Hildryn
+169,Balefire
+170,Shield Pillage
+171,Haven
+172,Aegis Storm
+# Wisp
+173,Reservoirs
+174,Wil-O-Wisp
+175,Breach Surge
+176,Sol Gate
+# Gauss
+177,Mach Rush
+178,Kinetic Plating
+179,Thermal Sunder
+180,Redline
+# Grendel
+181,Feast
+182,Nourish
+183,Regurgitate
+184,Pulverize
