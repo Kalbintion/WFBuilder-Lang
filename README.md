@@ -4,9 +4,9 @@ This repo is about being able to translate/update incorrect, missing, outdated, 
 # How To Use
 - Create a Fork of this repo
 - Make your changes on your Fork
-  - For Abilities, see section [How To Translate Details](#How_To_Translate_Details) and edit the EN/Abilities.txt
-  - For Mods, edit the EN/Mods.txt
-  - For Details, edit the EN/Details.txt
+  - For Abilities, see section [How To Translate Abilities](#How-To-Translate-Abilities) and edit the EN/Abilities.txt file
+  - For Mods, see section [How To Translate Mods](#How-To-Translate-Mods) and edit the EN/Mods.txt file
+  - For Details, see section [How To Translate Details](#How-To-Translate-Details) and  edit the EN/Details.txt file
 - Once done, create a Pull Request (PR)
 - Review of your PR will be made and upon being accepted will make it to the live site afterwards (usually on next site update)
   - If your PR is not accepted, a note on why will made, and fixes will need to happen before it can be accepted. Common issues for this would be the formatting of the changes not following guidelines.
