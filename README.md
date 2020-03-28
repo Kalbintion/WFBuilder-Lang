@@ -4,6 +4,9 @@ This repo is about being able to translate/update incorrect, missing, outdated, 
 # How To Use
 - Create a Fork of this repo
 - Make your changes on your Fork
+  - For Abilities, see section [How To Translate Details](#How_To_Translate_Details) and edit the EN/Abilities.txt
+  - For Mods, edit the EN/Mods.txt
+  - For Details, edit the EN/Details.txt
 - Once done, create a Pull Request (PR)
 - Review of your PR will be made and upon being accepted will make it to the live site afterwards (usually on next site update)
   - If your PR is not accepted, a note on why will made, and fixes will need to happen before it can be accepted. Common issues for this would be the formatting of the changes not following guidelines.
@@ -56,3 +59,17 @@ to
 | [u][/u] | Uppercases text. **Deprecated. This tag to be phased out. Match capitalization to the mod found in-game.** |
 | [hr]    | Creates a horizontal rule. |
 | [icon][/icon] | Provides an icon at that part. See [ICON_LIST.md](ICON_LIST.md) |
+
+# How To Translate Details
+The Details file contains extra information typically used by warframes, mods and other key parts of the interface. This includes information like special ability descriptions and augment descriptions found in the Details tab of a warframe. The information is broken up into sections to find easier, including header comments for frames and their abilities.
+
+Each line found in there contains the key used by WFBuilder, surrounded by single quotes, following by an equal sign and greater than (`=>`) and finally the string that is shown. This is typically encapsulated by single or double quotes and the line ends with a comma. The only portion that should be modified with the displayed string mentioned, and the line must end with a comma. For those who are a bit more knowledgeable about programming, this is the contents of a PHP array used by the language file itself.
+
+#### Examples
+If, as a hypothetical, the status Magnetic term was no longer used and DE changed it to be "shield shock" then the following line would need to be changed:
+
+`'magnetique'=>'magnetic',` to `'magnetique'=>'shield shock',`
+
+Or if Ash's Shurikens were renamed as Throwing Stars, then the line for his ability, found under the header `// SHURIKEN` would be changed from:
+
+`'shuriken'=>'shuriken(s)',` to `'shuriken'=>'throwing star(s)',`
