@@ -9,7 +9,7 @@ This repo is about being able to translate/update incorrect, missing, outdated, 
   - For Details, see section [How To Translate Details](#How-To-Translate-Details) and  edit the EN/Details.txt file
 - Once done, create a Pull Request (PR)
 - Review of your PR will be made and upon being accepted will make it to the live site afterwards (usually on next site update)
-  - If your PR is not accepted, a note on why will made, and fixes will need to happen before it can be accepted. Common issues for this would be the formatting of the changes not following guidelines.
+  - If your PR is not accepted, a note on why will be made, and fixes will need to happen before it can be accepted. Common issues for this would be the formatting of the changes not following guidelines.
 
 # How To Translate Abilities
 You will find a header line, such as `# Ash`, for abilities for that frame to help minimize confusion and to find an ability faster. Each line contains two parts for abilities, each part separated by commas. The first is the ID of the ability, this should **never** be changed. The second part is the name in the respective language of the ability. Please ensure the files save with [Unix style endings (\n)](#unix-style-endings-n)
