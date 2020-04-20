@@ -37,7 +37,7 @@ Pour les mods, chaque ligne est composée de trois parties, séparées par des v
 #### Exemples
 La description du mod [Pensée Rapide](https://warframe.fandom.com/fr/wiki/Pens%C3%A9e_Rapide) sur Warframe Builder est obsolète et n'a également que peu de sens dans sa version actuelle. La ligne actuelle `57,Pensée Rapide,Drains d'énergie pour arrêter les blessures mortelles avec +[1]% d'efficacité.` devra être modifiée de la façon suivante : `57,Pensée Rapide,Draine l'énergie pour absorber une blessure mortelle avec +[1]% d'efficacité.`
 
-Si vous désirez traduire le mod [Coaction Drift](https://warframe.fandom.com/wiki/Coaction_Drift) en français ([Art de la Coaction](href="https://warframe.fandom.com/fr/wiki/Art_de_la_Coaction"), la ligne `612,Coaction Drift,[u]+[1]% aura strength +[2]% aura effectiveness[/u]` devra être modifiée de la façon suivante : `612,Art de la Coaction,+[1]% de Puissance de l'Aura +[2]% d'Efficacité de l'Aura`
+Si vous désirez traduire le mod [Coaction Drift](https://warframe.fandom.com/wiki/Coaction_Drift) en français ([Art de la Coaction](https://warframe.fandom.com/fr/wiki/Art_de_la_Coaction), la ligne `612,Coaction Drift,[u]+[1]% aura strength +[2]% aura effectiveness[/u]` devra être modifiée de la façon suivante : `612,Art de la Coaction,+[1]% de Puissance de l'Aura +[2]% d'Efficacité de l'Aura`
 
 #### Tableau : Balises des mods
 | Balise  | Description |
