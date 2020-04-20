@@ -18,13 +18,17 @@ Pour chaque Warframe, vous trouverez une entête du type `# Ash`, permettant de 
 Pour [Ember](https://warframe.fandom.com/fr/wiki/Ember), dont une mise à jour modifiant le nom des compétences a eu lieu, Accélérant et Mode de Feu étant respectivement renommés Immolation et Inferno, les lignes du fichier FR/Abilities.txt ont changé de la façon suivante.
 
 `6,Accélérant` vers `6,Immolation`
+
 `8,Mode de Feu` vers `8,Inferno`
 
 Pour [Inaros](https://warframe.fandom.com/fr/wiki/Inaros), dont les compétences n'ont jamais été traduites sur Warframe Builder, les lignes du fichier FR/Abilities.txt devraient changer de la façon suivante pour que la traduction soit correcte.
 
 `125,Desiccation` vers `125,Dessiccation`
+
 `126,Devour` vers `126,Inhumation`
+
 `127,Sandstorm` vers `127,Tempête de Sable`
+
 `128,Scarab Swarm` vers `128,Nuée de Scarabées`
 
 # Comment traduire les mods
