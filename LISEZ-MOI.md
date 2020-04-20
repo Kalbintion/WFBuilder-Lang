@@ -15,11 +15,11 @@ Ce dépôt (repository) à pour but de permettre la traduction et la mise à jou
 Pour chaque Warframe, vous trouverez une entête du type `# Ash`, permettant de trouver facilement les compétences associées, celles-ci étant les quatre lignes juste en dessous. Chacune de ces lignes représente une compétence et est composée de deux parties, séparées par une virgule. La première partie est l'identifiant (ID) de la compétence. Cette valeur ne doit **jamais** être modifiée. La seconde partie est le nom de la compétence. C'est cette partie qui doit être traduite en français, ou actualisée, le cas échéant. Veuillez vous assurer de sauvegarder vos fichiers avec des fins de lignes « Unix » (\n)
 
 #### Exemples
-Pour [Ember](https://warframe.fandom.com/fr/wiki/Ember), dont une mise à jour modifiant le nom des compétences a eu lieu, Accélérant et Mode de Feu étant respectivement renommés Immolation et Inferno, les lignes du fichier FR/Abilities.txt ont changé de la façon suivante.
+Pour [Ember](https://warframe.fandom.com/fr/wiki/Ember), dont une mise à jour modifiant le nom des compétences a eu lieu, Accélérant et Monde de Feu étant respectivement renommés Immolation et Inferno, les lignes du fichier FR/Abilities.txt ont changé de la façon suivante.
 
 `6,Accélérant` vers `6,Immolation`
 
-`8,Mode de Feu` vers `8,Inferno`
+`8,Monde de Feu` vers `8,Inferno`
 
 Pour [Inaros](https://warframe.fandom.com/fr/wiki/Inaros), dont les compétences n'ont jamais été traduites sur Warframe Builder, les lignes du fichier FR/Abilities.txt devraient changer de la façon suivante pour que la traduction soit correcte.
 
