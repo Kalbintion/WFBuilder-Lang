@@ -62,8 +62,8 @@ Si, pour une raison quelconque, le statut Magnétique changeait de nom et que DE
 
 Notez le caractère d'échappement `\` (antislash) utilisé devant l'apostrophe du bloc `d\'électricité`. Il est nécessaire pour indiquer au script que ce guillemet simple n'indique pas la fin d'une chaine de texte, car il est le même que les guillemets simples qui entourent le bloc de texte. Une solution alternative est d'utiliser les guillemets doubles plutôt que le caractère d'échappement, cela produit exactement le même résultat. `'magnetique'=>"tempête d'électricité",`
 
-Si les Shurikens que lance Ash étaient renommés Etoiles Filantes, alors la ligne suivante, trouvée facilement grace à l'entête `// SHURIKEN`, devrait être modifiée de la façon suivante :
+Si les Shurikens que lance Ash étaient renommés Étoiles Filantes, alors la ligne suivante, trouvée facilement grace à l'entête `// SHURIKEN`, devrait être modifiée de la façon suivante :
 
-`'shuriken'=>'shuriken(s)',` to `'shuriken'=>'étoiles(s) filante(s)',`
+`'shuriken'=>'shuriken(s)',` to `'shuriken'=>'étoile(s) filante(s)',`
 
 # Fins de lignes « Unix » (\n)
