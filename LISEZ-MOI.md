@@ -6,7 +6,7 @@ Ce dépôt (repository) à pour but de permettre la traduction et la mise à jou
 - Faites vos changements sur votre copie
   - Pour les compétences, reportez-vous à la section [Comment traduire les compétences](#Comment-traduire-les-compétences) et éditez le fichier FR/Abilities.txt
   - Pour les mods, reportez-vous à la section [Comment traduire les mods](#Comment-traduire-les-mods) et éditez le fichier FR/Mods.txt
-  - Pour l'onglet Détails, reportez-vous à la section [Comment traduire l'onglet Détails](#Comment-traduire-l-onglet-Détails) et éditez le fichier FR/Details.txt
+  - Pour l'onglet Détails, reportez-vous à la section [Comment traduire l'onglet Détails](#Comment-traduire-l'onglet-Détails) et éditez le fichier FR/Details.txt
 - Une fois terminé, créez une « pull request » (PR)
 - Votre PR sera vérifiée et mise en ligne une fois acceptée, généralement lors de la mise à jour suivante
   - Si votre PR n'est pas acceptée, des informations concernant les raisons de ce refus vous seront communiquées. Les changement nécessaires devront être appliqués afin de voir votre PR acceptée. Les problèmes les plus courants concernent le formatage du texte qui ne respecte pas les règles établies.
