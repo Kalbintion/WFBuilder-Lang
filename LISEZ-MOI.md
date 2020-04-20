@@ -32,7 +32,7 @@ Pour [Inaros](https://warframe.fandom.com/fr/wiki/Inaros), dont les compétences
 `128,Scarab Swarm` vers `128,Nuée de Scarabées`
 
 # Comment traduire les mods
-Pour les mods, chaque ligne est composée de trois parties, séparées par des virgules. La première est l'identifiant du mod (ID), et ne devrait **jamais** être modifée. La seconde partie est le nom du mod et la troisième la description. Veuillez noter que les descriptions incluent des balises spécifiques nous permettant d'afficher les informations du mod correctement. Référez-vous au tableau des balises ci-dessous pour de plus amples informations à ce sujet. Veuillez également vous assurer de sauvegarder vos fichiers avec des fins de lignes « Unix » (\n)
+Pour les mods, chaque ligne est composée de trois parties, séparées par des virgules. La première est l'identifiant du mod (ID), et ne devrait **jamais** être modifiée. La seconde partie est le nom du mod et la troisième la description. Veuillez noter que les descriptions incluent des balises spécifiques nous permettant d'afficher les informations du mod correctement. Référez-vous au tableau des balises ci-dessous pour de plus amples informations à ce sujet. Veuillez également vous assurer de sauvegarder vos fichiers avec des fins de lignes « Unix » (\n)
 
 #### Exemples
 La description du mod [Pensée Rapide](https://warframe.fandom.com/fr/wiki/Pens%C3%A9e_Rapide) sur Warframe Builder est obsolète et n'a également que peu de sens dans sa version actuelle. La ligne actuelle `57,Pensée Rapide,Drains d'énergie pour arrêter les blessures mortelles avec +[1]% d'efficacité.` devra être modifiée de la façon suivante : `57,Pensée Rapide,Draine l'énergie pour absorber une blessure mortelle avec +[1]% d'efficacité.`
