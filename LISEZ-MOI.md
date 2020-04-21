@@ -12,7 +12,7 @@ Ce dépôt (repository) à pour but de permettre la traduction et la mise à jou
   - Si votre PR n'est pas acceptée, des informations concernant les raisons de ce refus vous seront communiquées. Les changement nécessaires devront être appliqués afin de voir votre PR acceptée. Les problèmes les plus courants concernent le formatage du texte qui ne respecte pas les règles établies.
 
 # Comment traduire les compétences
-Pour chaque Warframe, vous trouverez une entête du type `# Ash`, permettant de trouver facilement les compétences associées, celles-ci étant les quatre lignes juste en dessous. Chacune de ces lignes représente une compétence et est composée de deux parties, séparées par une virgule. La première partie est l'identifiant (ID) de la compétence. Cette valeur ne doit **jamais** être modifiée. La seconde partie est le nom de la compétence. C'est cette partie qui doit être traduite en français, ou actualisée, le cas échéant. Veuillez vous assurer de sauvegarder vos fichiers avec des fins de lignes « Unix » (\n)
+Pour chaque Warframe, vous trouverez une entête du type `# Ash`, permettant de trouver facilement les compétences associées, celles-ci étant les quatre lignes juste en dessous. Chacune de ces lignes représente une compétence et est composée de deux parties, séparées par une virgule. La première partie est l'identifiant (ID) de la compétence. Cette valeur ne doit **jamais** être modifiée. La seconde partie est le nom de la compétence. C'est cette partie qui doit être traduite en français, ou actualisée, le cas échéant. Veuillez vous assurer de sauvegarder vos fichiers avec des [fins de lignes « Unix » (\n)](#fins-de-lignes--unix--n)
 
 #### Exemples
 Pour [Ember](https://warframe.fandom.com/fr/wiki/Ember), dont une mise à jour modifiant le nom des compétences a eu lieu, Accélérant et Monde de Feu étant respectivement renommés Immolation et Inferno, les lignes du fichier FR/Abilities.txt ont changé de la façon suivante.
@@ -32,7 +32,7 @@ Pour [Inaros](https://warframe.fandom.com/fr/wiki/Inaros), dont les compétences
 `128,Scarab Swarm` vers `128,Nuée de Scarabées`
 
 # Comment traduire les mods
-Pour les mods, chaque ligne est composée de trois parties, séparées par des virgules. La première est l'identifiant du mod (ID), et ne devrait **jamais** être modifiée. La seconde partie est le nom du mod et la troisième la description. Veuillez noter que les descriptions incluent des balises spécifiques nous permettant d'afficher les informations du mod correctement. Référez-vous au tableau des balises ci-dessous pour de plus amples informations à ce sujet. Veuillez également vous assurer de sauvegarder vos fichiers avec des fins de lignes « Unix » (\n)
+Pour les mods, chaque ligne est composée de trois parties, séparées par des virgules. La première est l'identifiant du mod (ID), et ne devrait **jamais** être modifiée. La seconde partie est le nom du mod et la troisième la description. Veuillez noter que les descriptions incluent des balises spécifiques nous permettant d'afficher les informations du mod correctement. Référez-vous au tableau des balises ci-dessous pour de plus amples informations à ce sujet. Veuillez également vous assurer de sauvegarder vos fichiers avec des [fins de lignes « Unix » (\n)](#fins-de-lignes--unix--n)
 
 #### Exemples
 La description du mod [Pensée Rapide](https://warframe.fandom.com/fr/wiki/Pens%C3%A9e_Rapide) sur Warframe Builder est obsolète et n'a également que peu de sens dans sa version actuelle. La ligne actuelle `57,Pensée Rapide,Drains d'énergie pour arrêter les blessures mortelles avec +[1]% d'efficacité.` devra être modifiée de la façon suivante : `57,Pensée Rapide,Draine l'énergie pour absorber une blessure mortelle avec +[1]% d'efficacité.`
@@ -53,7 +53,7 @@ Si vous désirez traduire le mod [Coaction Drift](https://warframe.fandom.com/wi
 # Comment traduire l'onglet Détails
 Le fichier FR/Details.txt contient les chaines de texte relatives aux informations liées aux Warframes, à certains mods et à des éléments de l'interface en général. Cela inclut entre autres les descriptions des effets des compétences, trouvées dans l'onglet Détails, pour chaque Warframe. Le fichier est découpé en plusieurs sections, elles-mêmes précédées de commentaires permettant de trouver facilement ce que vous recherchez.
 
-Chaque ligne de ce fichier est composée de la clé utilisée par WFBuilder pour identifier ce texte, entourée de guillemets simples et suivie d'une flèche (`=>`), elle-même suivie du texte associé à cette clé, le texte affiché sur WFBuilder. Cette dernière partie est entourée de guillemets simples ou doubles et la ligne se termine par une virgule. Seul le contenu de cette dernière partie et qui se trouve entre guillemets doit être modifié. Pour ceux qui sont familiers avec les langages de programmation, il s'agit du contenu d'un tableau en PHP. Veuillez vous assurer de sauvegarder vos fichiers avec des fins de lignes « Unix » (\n)
+Chaque ligne de ce fichier est composée de la clé utilisée par WFBuilder pour identifier ce texte, entourée de guillemets simples et suivie d'une flèche (`=>`), elle-même suivie du texte associé à cette clé, le texte affiché sur WFBuilder. Cette dernière partie est entourée de guillemets simples ou doubles et la ligne se termine par une virgule. Seul le contenu de cette dernière partie et qui se trouve entre guillemets doit être modifié. Pour ceux qui sont familiers avec les langages de programmation, il s'agit du contenu d'un tableau en PHP. Veuillez vous assurer de sauvegarder vos fichiers avec des [fins de lignes « Unix » (\n)](#fins-de-lignes--unix--n)
 
 #### Exemples
 Si, pour une raison quelconque, le statut Magnétique changeait de nom et que DE décidait de le renommer « Tempête d'électricité », alors la ligne ci-dessous devrait être modifiée de la façon suivante :
@@ -67,3 +67,10 @@ Si les Shurikens que lance Ash étaient renommés Étoiles Filantes, alors la li
 `'shuriken'=>'shuriken(s)',` to `'shuriken'=>'étoile(s) filante(s)',`
 
 # Fins de lignes « Unix » (\n)
+Il est préférable d'utiliser la convention « Unix » pour les fins de lignes de ces fichiers, cela générera moins de problèmes lorsque vos données seront analysées par le système pour être intégrées à l'application. Si vous n'êtes absolument pas en mesure de respecter la convention « Unix » pour les fins de lignes, merci de le préciser dans votre PR.
+
+Ci-dessous, une liste de liens vers la marche à suivre pour vous assurer de sauvegarder vos fichiers en respectant la convention « Unix » pour les fins de lignes, pour les éditeurs de texte les plus populaires.
+* Notepad: Aucun support en dehors de Windows 10
+* [Notepad++](https://notepad-plus-plus.org/downloads/): <https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings#how-to-convert>
+* [Atom](https://atom.io/): <https://stackoverflow.com/a/48686409>
+* [VSCode](https://code.visualstudio.com/): <https://marketplace.visualstudio.com/items?itemName=JakubBielawa.LineEndingsUnifier>
