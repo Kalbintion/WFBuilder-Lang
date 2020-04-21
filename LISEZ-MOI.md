@@ -9,7 +9,7 @@ Ce dépôt (repository) à pour but de permettre la traduction et la mise à jou
   - Pour l'onglet Détails, reportez-vous à la section [Comment traduire l'onglet Détails](#Comment-traduire-longlet-Détails) et éditez le fichier FR/Details.txt
 - Une fois terminé, créez une « pull request » (PR)
 - Votre PR sera vérifiée et mise en ligne une fois acceptée, généralement lors de la mise à jour suivante
-  - Si votre PR n'est pas acceptée, des informations concernant les raisons de ce refus vous seront communiquées. Les changement nécessaires devront être appliqués afin de voir votre PR acceptée. Les problèmes les plus courants concernent le formatage du texte qui ne respecte pas les règles établies.
+  - Si votre PR n'est pas acceptée, des informations concernant les raisons de ce refus vous seront communiquées. Les changements nécessaires devront être appliqués afin de voir votre PR acceptée. Les problèmes les plus courants concernent le formatage du texte qui ne respecte pas les règles établies.
 
 # Comment traduire les compétences
 Pour chaque Warframe, vous trouverez une entête du type `# Ash`, permettant de trouver facilement les compétences associées, celles-ci étant les quatre lignes juste en dessous. Chacune de ces lignes représente une compétence et est composée de deux parties, séparées par une virgule. La première partie est l'identifiant (ID) de la compétence. Cette valeur ne doit **jamais** être modifiée. La seconde partie est le nom de la compétence. C'est cette partie qui doit être traduite en français, ou actualisée, le cas échéant. Veuillez vous assurer de sauvegarder vos fichiers avec des [fins de lignes « Unix » (\n)](#fins-de-lignes--unix--n)
@@ -48,7 +48,7 @@ Si vous désirez traduire le mod [Coaction Drift](https://warframe.fandom.com/wi
 | [h][/h] | Masque le texte. Utilisé pour « tagger » les mods avec des mots-clés supplémentaires pour enrichir les recherches. |
 | [u][/u] | Texte en majuscule. **Préférez désormais entrer le texte directement en majuscule afin de retirer ces tags.** |
 | [hr]    | Crée une ligne horizontale. |
-| [icon][/icon] | Affichage d'une icone. Voir [ICON_LIST.md](ICON_LIST.md) |
+| [icon][/icon] | Affichage d'une icône. Voir [ICON_LIST.md](ICON_LIST.md) |
 
 # Comment traduire l'onglet Détails
 Le fichier FR/Details.txt contient les chaines de texte relatives aux informations liées aux Warframes, à certains mods et à des éléments de l'interface en général. Cela inclut entre autres les descriptions des effets des compétences, trouvées dans l'onglet Détails, pour chaque Warframe. Le fichier est découpé en plusieurs sections, elles-mêmes précédées de commentaires permettant de trouver facilement ce que vous recherchez.
